@@ -2,7 +2,7 @@
 ## Biography
 I am a fifth year Ph.D. candidate in Department of computer science and technology, Nanjing University, advised by [Prof. Chen Tian](https://cs.nju.edu.cn/tianchen/index.htm) and [Prof. Sheng Zhong](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm). Now I'm interning at Alibaba DAMO Academy, supervised by [Longbin Lai](https://lai.me/).  My research interests mainly include graph computing, mining and learning.
 
-## education
+## Education
 
 `Sept. 2018 - Present`
 __Nanjing University__
