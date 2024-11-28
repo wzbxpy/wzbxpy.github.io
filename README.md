@@ -1,16 +1,24 @@
 # Zhibin Wang
 ## Biography
-I am a fifth year Ph.D. candidate in Department of computer science and technology, Nanjing University, advised by [Prof. Chen Tian](https://cs.nju.edu.cn/tianchen/index.htm) and [Prof. Sheng Zhong](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm). Now I'm interning at Alibaba DAMO Academy, supervised by [Longbin Lai](https://lai.me/).  My research interests mainly include graph computing, mining and learning.
+I am a assistant researcher in School of Intelligent Software and Engineering, Nanjing University.
+I received my Ph.D. degree in School of Computer Science, Nanjing University, advised by [Prof. Chen Tian](https://cs.nju.edu.cn/tianchen/index.htm) and [Prof. Sheng Zhong](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm). I have been interning at [GraphScope](https://graphscope.io/) team in Alibaba DAMO Academy from 2021 to 2024, supervised by [Longbin Lai](https://lai.me/). My research interests include accelerating subgraph matching and other graph algorithms using new hardware, especially GPUs. Recently, I am engaged in accelerating LLM inference.
+
+## Prospective Students
+__We are looking for self-motivated students who are interested in graph algorithms and LLM systems. We welcome students with strong algorithmic, mathematical, and programming skills. Please contact me by email with your CV.__
 
 ## Education
 
-`Sept. 2018 - Present`
+`Sept. 2018 - Sept. 2024`
 __Nanjing University__
 - Ph.D. in Computer Science and Technology
 
-`Sept. 2014 - June 2018`
+`May 2021 - July 2024`
+__Alibaba DAMO Academy__
+- Research intern in GraphScope team
+
+<!-- `Sept. 2014 - June 2018`
 __Nanjing University of Aeronautics and Astronautics__
-- B.E. in Computer Science and Technology
+- B.E. in Computer Science and Technology -->
 
 
 ## Research
