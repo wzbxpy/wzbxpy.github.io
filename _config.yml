@@ -1,6 +1,15 @@
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: sharu725/online-cv
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+# theme: jekyll-theme-minimal
 title: wzb's cv
 description: wzb's cv
-show_downloads: "false"
+markdown: kramdown
+kramdown:
+  input: GFM
+logo: figure/ZhibinWang.jpg
+theme_skin: berry
+sass:
+  sass_dir: _sass
+  # style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+# show_downloads: true
