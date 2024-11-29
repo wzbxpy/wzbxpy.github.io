@@ -1,6 +1,6 @@
-remote_theme: sharu725/online-cv
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+# remote_theme: sharu725/online-cv
+# plugins:
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
 # theme: jekyll-theme-minimal
 title: wzb's cv
 description: wzb's cv
