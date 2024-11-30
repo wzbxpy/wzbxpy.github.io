@@ -8,7 +8,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 logo: figure/ZhibinWang.jpg
-theme_skin: berry
+theme_skin: green
 sass:
   sass_dir: _sass
   # style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

@@ -21,10 +21,10 @@ h6 {
 
 a {
   color: darken($theme-color, 15%);
+  text-decoration: underline;
 
   &:hover {
-    text-decoration: underline;
-    color: darken($theme-color, 30%);
+    color: $heart;
   }
 
   &:focus {
