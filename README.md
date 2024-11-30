@@ -1,4 +1,4 @@
-# Zhibin Wang (王智彬)
+<!-- # Zhibin Wang (王智彬) -->
 ## Biography
 I am a assistant researcher in School of Intelligent Software and Engineering, Nanjing University.
 I received my Ph.D. degree in School of Computer Science, Nanjing University, advised by [Prof. Chen Tian](https://cs.nju.edu.cn/tianchen/index.htm) and [Prof. Sheng Zhong](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm). I have been interning at [GraphScope](https://graphscope.io/) team in Alibaba DAMO Academy from 2021 to 2024, supervised by [Longbin Lai](https://lai.me/). 

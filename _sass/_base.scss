@@ -16,6 +16,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+  color: darken($theme-color, 10%);
 }
 
 a {
@@ -68,6 +69,7 @@ p {
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
+    color: white;
   }
 
   .tagline {
