@@ -87,11 +87,11 @@ __Nanjing University of Aeronautics and Astronautics__
 
 ## Preprints
 
-  - Zhibin Wang, Shipeng Li, Yuhang Zhou, Xue Li, Rong Gu, Nguyen Cam-Tu, Chen Tian, Sheng Zhong.
+  - __Zhibin Wang__, Shipeng Li, Yuhang Zhou, Xue Li, Rong Gu, Nguyen Cam-Tu, Chen Tian, Sheng Zhong.
     [Revisiting SLO and Goodput Metrics in LLM Serving.](https://arxiv.org/pdf/2410.14257)
     ArXiv.
 
-  - Tao He, Xue Li, Zhibin Wang, Kun Qian, Jingbo Xu, Wenyuan Yu, Jingren Zhou.
+  - Tao He, Xue Li, __Zhibin Wang__, Kun Qian, Jingbo Xu, Wenyuan Yu, Jingren Zhou.
     [Unicron: Economizing self-healing llm training at scale.](https://arxiv.org/pdf/2401.00134)
     ArXiv.
 
