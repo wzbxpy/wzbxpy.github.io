@@ -35,7 +35,7 @@ __Nanjing University of Aeronautics and Astronautics__
   [Swift Unfolding of Communities: GPU-Accelerated Louvain Algorithm.]() 
   PPoPP, 2025.
 
-  - Xue Li, Weibin Zeng, Zhibin Wang, Diwen Zhu, Jingbo Xu, Wenyuan Yu, Jingren Zhou.
+  - Xue Li, Weibin Zeng, __Zhibin Wang__, Diwen Zhu, Jingbo Xu, Wenyuan Yu, Jingren Zhou.
     [GraphAr: An Efficient Storage Scheme for Graph Data in Data Lakes.]()
     VLDB conference, 2025.
 
