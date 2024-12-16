@@ -68,3 +68,53 @@ _除了上述内容，也可以学习数据挖掘的内容，有很大一部分�
 视频在：https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn
 
 
+# 一些项目
+
+## Leiden算法在GPU上的实现 （HPC，图计算，近似算法，DB）
+社区检测的一些介绍: https://www.zhihu.com/question/29042018/answer/2216618374
+
+Leiden算法的论文：https://www.nature.com/articles/s41598-019-41695-z
+
+__进度__：我们基于Leiden算法的前置算法Louvain已经在GPU上实现了（发表在PPoPP， CCF A，南大第一篇），扩展到Leiden算法应该不难
+
+__目标__：扩展到Leiden可以再发一篇A类期刊，另外可以把这个项目拿去参加挑战杯（如果要参加请尽快联系我）
+
+## 使用GPU加速向量数据库的查询 （HPC，近似算法，DB）
+
+__进度__：我们已经在GPU上实现了一个简单的向量数据库
+
+__任务__：参与查询算法的优化，以及GPU上的实现
+
+## Multi-Agent （AI算法，LLM System）
+
+论文：https://arxiv.org/pdf/2402.01680
+
+__进度__：刚刚开始
+
+## LLM inference中Decoding阶段复用kv cache （LLM System，HPC）
+
+__相关论文__
+
+Flash attention: https://github.com/Dao-AILab/flash-attention
+- Describe how to decompose the attention operation
+
+SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification
+- How to verify tree-based decoding token
+
+__最新进展__
+
+Bifurcated Attention: Accelerating Massively Parallel Decoding with Shared Prefixes in LLMs
+Hydragen: High-Throughput LLM Inference with Shared Prefixes
+
+## Fault Tolerance in LLM Training （LLM System，HPC）
+
+已完成相关论文：[Unicron: Economizing self-healing llm training at scale.](https://arxiv.org/pdf/2401.00134)
+
+__正在和华为合作做这个topic__
+
+__有一个博士生在做这个方向，可以和他一起做__
+
+## ASPLOS的比赛
+
+https://github.com/asplos-contest/2025/tree/main
+__有个ACM金牌的大四学长在做，可以一起做__
