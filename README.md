@@ -31,7 +31,7 @@ __Nanjing University of Aeronautics and Astronautics__
 
 ## Publications
     
-  - Yuhang Zhou, __Zhibin Wang__, Guyue Liu, Shipeng Li, Xi Lin, Zibo Wang, Yongzhong Wang, Fuchun Wei, Jingyi Zhang, Zhiheng Hu, Yanlin Liu, Chunsheng Li, Ziyang Zhang, Yaoyuan Wang, Bin Zhou, Wanchun Dou, Guihai Chen, Chen Tian. [Squeezing Operator Performance Potential for the Ascend Architecture.]() ASPLOS, 2025.
+  - Yuhang Zhou, __Zhibin Wang (corresponding author)__, Guyue Liu, Shipeng Li, Xi Lin, Zibo Wang, Yongzhong Wang, Fuchun Wei, Jingyi Zhang, Zhiheng Hu, Yanlin Liu, Chunsheng Li, Ziyang Zhang, Yaoyuan Wang, Bin Zhou, Wanchun Dou, Guihai Chen, Chen Tian. [Squeezing Operator Performance Potential for the Ascend Architecture.]() ASPLOS, 2025.
 
   - Pinhuan Wang, Chengying Huan, __Zhibin Wang__, Chen Tian, Yuede Ji, Hang Liu. [BINGO: Radix-based Bias Factorization for Random Walk on Dynamic Graphs.]() EuroSys, 2025.
 
