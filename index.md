@@ -41,7 +41,7 @@ __Nanjing University of Aeronautics and Astronautics__
   - Pinhuan Wang, Chengying Huan, __Zhibin Wang__, Chen Tian, Yuede Ji, Hang Liu. [BINGO: Radix-based Bias Factorization for Random Walk on Dynamic Graphs.]() EuroSys, 2025.
 
   - __Zhibin Wang__, Xi Lin, Xue Li, Pinhuan Wang, Ziheng Meng, Hang Liu, Chen Tian, Sheng Zhong. 
-  [Swift Unfolding of Communities: GPU-Accelerated Louvain Algorithm.]() 
+  [Swift Unfolding of Communities: GPU-Accelerated Louvain Algorithm.](https://cs.nju.edu.cn/tianchen/lunwen/2025/ppopp25-zhibin.pdf) 
   PPoPP, 2025.
 
   - Xue Li, Weibin Zeng, __Zhibin Wang__, Diwen Zhu, Jingbo Xu, Wenyuan Yu, Jingren Zhou.
@@ -88,7 +88,7 @@ __Nanjing University of Aeronautics and Astronautics__
 
   - Longbin Lai, Yufan Yang, __Zhibin Wang__, Yuxuan Liu, Haotian Ma, Sijie Shen, Bingqing Lyu, Xiaoli Zhou, Wenyuan Yu, Zhengping Qian, Chen Tian, Sheng Zhong, Yeh-Ching Chung, Jingren Zhou.
     [GLogS: Interactive Graph Pattern Matching Query At Large Scale.](https://cs.nju.edu.cn/tianchen/lunwen/2023/atc23-lai.pdf)
-    ATC 23.
+    USENIX ATC 2023.
     <!-- `June 2022 - Dec. 2022` -->
     <!-- - Design a compilation stack that compiles declarative GPM queries into distributed programs. -->
     <!-- - Propose an optimizer that can automatically derive optimal execution plans for GPM queries. -->
