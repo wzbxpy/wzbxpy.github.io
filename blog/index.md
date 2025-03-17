@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /blog
+title: blog
 ---
 
 # [PPO算法](/blog/ppo)

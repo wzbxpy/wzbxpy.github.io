@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /blog/ppo
+title: PPO算法
 ---
 
 # PPO算法
