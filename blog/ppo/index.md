@@ -81,4 +81,149 @@ $$
 Loss = -\frac{1}{N} \sum_{i=1}^{N} R(\tau_i) \sum_{t=0}^{T} \log P_{\theta}(a_t|s_t)
 $$
 
+__Action Value Function__：$Q_\theta(s, a)$，表示在状态$s$下采取动作$a$后的回报期望。
 
+$$ 
+Q_\theta(s, a) = E[R_\theta(s, a)]
+$$
+
+__State Value Function__：$V_\theta(s)$，表示在状态$s$下的回报期望。
+
+$$
+V_\theta(s) = E[R_\theta(s)] = \sum_{a} \pi_\theta(a|s) Q_\theta(s, a)
+$$
+
+__Advantage Function__：$A_\theta(s_t, a_t)$，表示在状态$s_t$下采取动作$a_t$相对于在状态$s_t$下采取动作$a$的优势。
+
+
+使用Advantage Function来替换上面的$R(\tau)$，我们可以得到：
+
+$$
+\begin{aligned}
+    &\sum_{i=1}^{N} \sum_{t=0}^{T_{i}} A_{\theta}(s_{t, i}, a_{t, i}) \nabla_{\theta} \log P_{\theta}(a_{t, i}|s_{t, i}) \\
+\end{aligned}
+$$
+
+### 优势函数的计算
+
+__接下来，我们只要关注如何计算Advantage Function即可。__
+
+$$
+A_\theta(s_t, a_t) = Q_\theta(s_t, a_t) - V_\theta(s_t) = r(s_t, a_t) + \gamma V_\theta(s_{t+1}) - V_\theta(s_t)
+$$
+
+其中$\gamma$是折扣因子，当设置为1的时候，表示不折扣，即为前面推导的结果。
+但在实际应用中，我们一般会设置一个小于1的值，表示未来的奖励不如当前的奖励重要。
+
+同样的，我们可以推导
+
+$$
+\begin{aligned}
+ V_{\theta} (s_t) & = \overbrace{\left(\sum_{a} \pi_{\theta}(a|s_t) r(s_t, a)\right)}^{做一次采样} &+ \gamma V_{\theta}(s_{t+1}) \\
+& = r(s_t, a_t) &+ \gamma V_{\theta}(s_{t+1}) \\
+&= r_t + \gamma V_{\theta}(s_{t+1}) \quad 
+\end{aligned}
+$$
+
+我们用$r_t$简化$r(s_t, a_t)$，表示在状态$s_t$下采取动作$a_t$后得到的奖励。
+
+这时候，其实我们可以得到advantage function的另一种计算方式：
+
+$$
+\begin{aligned}
+    
+A_{\theta}^1(s_t, a_t) & = r_t + \gamma V_{\theta}(s_{t+1}) - V_{\theta}(s_t) \\
+A_{\theta}^2(s_t, a_t) & = r_t + \gamma r_{t+1} + \gamma^2 V_{\theta}(s_{t+2}) - V_{\theta}(s_t)\\
+&= A_{\theta}^1(s_t, a_t) + \gamma A_{\theta}^1(s_{t+1}, a_{t+1}) \quad // \text{我们用$A_{\theta}^1$来计算$A_{\theta}^2$} \\
+&= A_{\theta,t} + \gamma A_{\theta,t+1} \quad // \text{我们用$A_{\theta,t}$来简化$A_{\theta}^1$} \\
+\cdots \\
+A_{\theta}^T(s_t, a_t) & = \left(\sum_{i=0}^{T-1} \gamma^i r_{t+i}\right) + \gamma^T V_{\theta}(s_{t+T}) - V_{\theta}(s_t) \\
+&= \sum_{i=0}^{T-1} \gamma^i A_{\theta,t+i} 
+\end{aligned}
+$$
+
+从$A_{\theta}^1$到$A_{\theta}^T$，偏差（bias）越来越小，但是方差（variance）越来越大。
+
+### 广义优势估计（GAE, Generalized Advantage Estimation）
+
+那肯定要trade-off了，我们可以用一个参数$\lambda$来控制这个trade-off。
+
+$$
+\begin{aligned}
+    
+    A_{\theta}^{GAE}(s_t, a_t) &= (1-\lambda) \sum_{l=0}^{T} \lambda^l A_{\theta}^l(s_t, a_t)\\
+    &= (1-\lambda) \sum_{l=0}^{T} \lambda^l \left(\sum_{i=0}^{T-l} \gamma^i A_{\theta,t+i}\right)\\
+    &= \sum_{l=0}^{T} (\lambda\gamma)^l A_{\theta,t+l} 
+\end{aligned}
+$$
+
+回到梯度的计算，我们可以得到
+
+$$
+\begin{aligned}
+    \sum_{i=1}^{N} \sum_{t=0}^{T_{i}} A_{\theta}^{GAE}(s_{t, i}, a_{t, i}) \nabla_{\theta} \log P_{\theta}(a_{t, i}|s_{t, i}) \\
+\end{aligned}
+$$
+
+所以，在模型输出中，除了得到$\pi$的输出，还要得到$V$的输出。
+
+## 从on-policy到off-policy
+
+![
+    从on-policy到off-policy
+](image-1.png)
+
+### 重要性采样（Importance Sampling）
+
+假设我们有两个策略$\pi$和$\pi'$，我们可以用$\pi$生成的轨迹来估计$\pi'$的期望回报。其中，$\pi$是参考策略，$\pi'$是目标策略。
+
+$$
+\begin{aligned}
+    &E_{\pi'}[R(\tau)] \\
+    =& \sum_{\tau} P_{\pi'}(\tau) R(\tau) \\
+    =& \sum_{\tau} P_{\pi'}(\tau) \frac{P_{\pi}(\tau)}{P_{\pi}(\tau)} R(\tau) \\
+    =& \sum_{\tau} P_{\pi'}(\tau) \frac{P_{\pi}(\tau)}{P_{\pi}(\tau)} R(\tau) \\
+    =& \sum_{\tau} P_{\pi}(\tau) \frac{P_{\pi'}(\tau)}{P_{\pi}(\tau)} R(\tau) \\
+    =& E_{\pi}[R(\tau) \frac{P_{\pi'}(\tau)}{P_{\pi}(\tau)}]
+\end{aligned}
+$$
+
+这里，$\frac{P_{\pi'}(\tau)}{P_{\pi}(\tau)}$就是重要性采样比率。
+
+梯度公式的推导也是类似的。
+
+$$ 
+\begin{aligned}
+    &\sum_{i=1}^{N} \sum_{t=0}^{T_{i}} A_{\theta'}(s_{t, i}, a_{t, i})^{GAE} \nabla_{\theta'} \log P_{\theta'}(a_{t, i}|s_{t, i}) \\
+    =& \sum_{i=1}^{N} \sum_{t=0}^{T_{i}} A_{\theta}^{GAE}(s_{t, i}, a_{t, i}) \frac{P_{\theta'}(a_{t, i}|s_{t, i})}{P_{\theta}(a_{t, i}|s_{t, i})} \nabla_{\theta'} \log P_{\theta'}(a_{t, i}|s_{t, i}) \\
+    =& \sum_{i=1}^{N} \sum_{t=0}^{T_{i}} A_{\theta}^{GAE}(s_{t, i}, a_{t, i}) \frac{P_{\theta'}(a_{t, i}|s_{t, i})}{P_{\theta}(a_{t, i}|s_{t, i})} \frac{\nabla_{\theta'} P_{\theta'}(a_{t, i}|s_{t, i})}{P_{\theta'}(a_{t, i}|s_{t, i})} \\
+    =& \sum_{i=1}^{N} \sum_{t=0}^{T_{i}} A_{\theta}^{GAE}(s_{t, i}, a_{t, i}) \frac{\nabla_{\theta'} P_{\theta'}(a_{t, i}|s_{t, i})}{P_{\theta}(a_{t, i}|s_{t, i})} \\
+\end{aligned}
+$$
+
+即，我们可以用$\pi$生成的轨迹来估计$\pi'$的梯度，换句话说，我们可以用$\pi$的advantage function来估计$\pi'$的advantage function。
+
+对应的loss function为
+
+$$
+Loss_{\text{importance sampling}} =
+-\frac{1}{N} \sum_{i=1}^{N} \sum_{t=0}^{T_{i}} A_{\theta}^{GAE}(s_{t, i}, a_{t, i}) \frac{P_{\theta'}(a_{t, i}|s_{t, i})}{P_{\theta}(a_{t, i}|s_{t, i})}
+$$
+
+### 稳定性
+
+当目标策略和参考策略相差较大时，重要性采样的方差会变得很大，研究者采用了两种方法:
+
+- __clip__: 对于$\frac{P_{\theta'}(a_{t, i}|s_{t, i})}{P_{\theta}(a_{t, i}|s_{t, i})}$进行截断，使其不超过一个阈值，超过阈值的部分直接截断，即不参与梯度的计算。
+
+- __KL divergence__: 通过控制两个策略之间的KL散度，使得两个策略之间的差距不会太大。
+
+KL 散度的定义为
+
+$$ 
+KL(P_{\theta'}||P_{\theta}) = E_{P_{\theta'}}[\log \frac{P_{\theta'}(\cdot)}{P_{\theta}(\cdot)}] = \sum_{x} P_{\theta'}(x) \log \frac{P_{\theta'}(x)}{P_{\theta}(x)}
+$$
+
+$$
+Loss_{\text{KL}} = -\frac{1}{N} \sum_{i=1}^{N} \sum_{t=0}^{T_{i}} A_{\theta}^{GAE}(s_{t, i}, a_{t, i}) \nabla_{\theta'} \log P_{\theta'}(a_{t, i}|s_{t, i}) + \beta KL(P_{\theta'}(\cdot|s_{t, i})||P_{\theta}(\cdot|s_{t, i}))
+$$
