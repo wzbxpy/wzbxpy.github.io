@@ -171,7 +171,7 @@ $$
 
 ![
     从on-policy到off-policy
-](image-1.png)
+](image-1.png){: style="max-width: 100%; height: auto; display: block; margin: 0 auto;" }
 
 ### 重要性采样（Importance Sampling）
 
