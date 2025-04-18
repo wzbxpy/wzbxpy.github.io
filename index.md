@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+**[中文点这里](chinese)**
 <!-- # Zhibin Wang (王智彬) -->
 ## Biography
 I am an assistant researcher in School of Intelligent Software and Engineering, Nanjing University.
