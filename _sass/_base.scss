@@ -390,3 +390,48 @@ p {
   border-top: 1.5px solid $heart; // 使用主题颜色
   margin: 0px; // 调整上下间距
 }
+
+
+.conference {
+  background-color: $theme-color;
+  color: white;
+  // text-align: right; // 文本内容右对齐
+  // display: block; // 可选：保持内容宽度
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-right: 5px; // 添加右侧空格
+
+}
+
+// 未来使用
+
+.paper {
+  background-color: lighten($theme-color, 90%);
+  border: 2px solid $theme-color; // 添加边框以突出显示
+  padding: 10px; // 内边距
+  border-radius: 5px; // 圆角
+  margin-bottom: 15px; // 与其他论文的间距
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // 添加阴影效果
+  transition: transform 0.3s ease, box-shadow 0.3s ease; // 添加交互动画
+
+  &:hover {
+    transform: scale(1.02); // 鼠标悬停时放大
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); // 鼠标悬停时增加阴影
+  }
+
+  .conference {
+    background-color: $theme-color;
+    color: white;
+    // text-align: right; // 文本内容右对齐
+    // display: block; // 可选：保持内容宽度
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-right: 5px; // 添加右侧空格
+
+  }
+
+  .publication-authors {
+    font-style: italic; // 作者部分使用斜体
+    color: $text-grey;
+  }
+}
