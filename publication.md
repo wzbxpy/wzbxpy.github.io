@@ -23,15 +23,14 @@
   1. <span class="conference">HPEC 2024</span> Ketai Zhao, Yuhang Zhou, Hong xu Pan, __Zhibin Wang (corresponding author)__, Sheng Zhong and Chen Tian. 
     [Sans: Streaming Anonymized Network Sensing.](https://cs.nju.edu.cn/tianchen/lunwen/2024/hpec24-ketai.pdf) 
     
+  1. <span class="conference">VLDBJ 2024</span> __Zhibin Wang__, Longbin Lai, Yixue Liu, Bing Shui, Chen Tian, Sheng Zhong.  
+    [Parallelization of Butterfly Counting on Hierarchical Memory.](https://cs.nju.edu.cn/tianchen/lunwen/2024/vldbj24-zhibin.pdf)
+    
 
-  1. <span class="conference">HPEC 2023.</span> __Zhibin Wang__, Ziheng Meng, Xue Li, Xi Lin, Long Zheng, Chen Tian, and Sheng Zhong. 
+  1. <span class="conference">HPEC 2023</span> __Zhibin Wang__, Ziheng Meng, Xue Li, Xi Lin, Long Zheng, Chen Tian, and Sheng Zhong. 
     [SMOG: Accelerating Subgraph Matching on GPUs.](https://cs.nju.edu.cn/tianchen/lunwen/2023/hpec23-zhibin.pdf)
     [🎉 Awarded Graph Challenge Champion.](https://graphchallenge.mit.edu/champions)
 
-
-  1. <span class="conference">VLDBJ.</span> __Zhibin Wang__, Longbin Lai, Yixue Liu, Bing Shui, Chen Tian, Sheng Zhong.  
-    [Parallelization of Butterfly Counting on Hierarchical Memory.](https://cs.nju.edu.cn/tianchen/lunwen/2024/vldbj24-zhibin.pdf)
-    
 
   1. <span class="conference">ATC 2023</span> Longbin Lai, Yufan Yang, __Zhibin Wang__, Yuxuan Liu, Haotian Ma, Sijie Shen, Bingqing Lyu, Xiaoli Zhou, Wenyuan Yu, Zhengping Qian, Chen Tian, Sheng Zhong, Yeh-Ching Chung, Jingren Zhou.
     [GLogS: Interactive Graph Pattern Matching Query At Large Scale.](https://cs.nju.edu.cn/tianchen/lunwen/2023/atc23-lai.pdf)
@@ -49,7 +48,7 @@
     <!-- - Parallelize IOBufs with a fine-grained approach that carefully trade-off the the I/O-efficiency and parallelism. -->
 
 
-  1. <span class="conference">TPDS</span> Santosh Pandey, __Zhibin Wang (co-first author)__, Sheng Zhong, Chen Tian, Bolong Zheng, Xiaoye Li, Lingda Li, Adolfy Hoisie, Caiwen Ding, Dong Li, Hang Liu. [TRUST: Triangle Counting Reloaded on GPUs.](https://cs.nju.edu.cn/tianchen/lunwen/2021/tpds21-zhibin.pdf)
+  1. <span class="conference">TPDS 2021</span> Santosh Pandey, __Zhibin Wang (co-first author)__, Sheng Zhong, Chen Tian, Bolong Zheng, Xiaoye Li, Lingda Li, Adolfy Hoisie, Caiwen Ding, Dong Li, Hang Liu. [TRUST: Triangle Counting Reloaded on GPUs.](https://cs.nju.edu.cn/tianchen/lunwen/2021/tpds21-zhibin.pdf)
     
   <!-- `Nov. 2019 - Feb. 2021` -->
     <!-- - Implement a vertex-centric hashing-based triangle counting on GPUs with GPU-friendly hashtable layout. -->
