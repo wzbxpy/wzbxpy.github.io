@@ -7,7 +7,7 @@
 
   1. <span class="conference">ATC 2025</span> Yuhang Zhou, Zibo Wang, __Zhibin Wang (corresponding author)__, Ruyi Zhang, Chen Tian, Xiaoliang Wang, Wanchun Dou, Guihai Chen, Binqiang Wang, Yonghong Tian, Yan Zhang, Hui Wang, Fuchun Wei, Boquan Sun, Jingyi Zhang, Bin She, Teng Su, Yifan Yao, Chunsheng Li, Ziyang Zhang, Yaoyuan Wang, Bin Zhou, Guyue Liu [Accelerating Model Training on Ascend Chips: An Industrial System for Profiling, Analysis and Optimization]() 
   
-  2. <span class="conference">ASPLOS 2025</span> Yuhang Zhou, __Zhibin Wang (corresponding author)__, Guyue Liu, Shipeng Li, Xi Lin, Zibo Wang, Yongzhong Wang, Fuchun Wei, Jingyi Zhang, Zhiheng Hu, Yanlin Liu, Chunsheng Li, Ziyang Zhang, Yaoyuan Wang, Bin Zhou, Wanchun Dou, Guihai Chen, Chen Tian. [Squeezing Operator Performance Potential for the Ascend Architecture.](https://cs.nju.edu.cn/tianchen/lunwen/2025/asplos25-yuhang.pdf) 
+  1. <span class="conference">ASPLOS 2025</span> Yuhang Zhou, __Zhibin Wang (corresponding author)__, Guyue Liu, Shipeng Li, Xi Lin, Zibo Wang, Yongzhong Wang, Fuchun Wei, Jingyi Zhang, Zhiheng Hu, Yanlin Liu, Chunsheng Li, Ziyang Zhang, Yaoyuan Wang, Bin Zhou, Wanchun Dou, Guihai Chen, Chen Tian. [Squeezing Operator Performance Potential for the Ascend Architecture.](https://cs.nju.edu.cn/tianchen/lunwen/2025/asplos25-yuhang.pdf) 
 
 
   1. <span class="conference">EuroSys 2025</span> Pinhuan Wang, Chengying Huan, __Zhibin Wang__, Chen Tian, Yuede Ji, Hang Liu. [BINGO: Radix-based Bias Factorization for Random Walk on Dynamic Graphs.](https://cs.nju.edu.cn/tianchen/lunwen/2025/eurosys25-pinhuan.pdf) 
@@ -32,7 +32,6 @@
   1. <span class="conference">VLDBJ.</span> __Zhibin Wang__, Longbin Lai, Yixue Liu, Bing Shui, Chen Tian, Sheng Zhong.  
     [Parallelization of Butterfly Counting on Hierarchical Memory.](https://cs.nju.edu.cn/tianchen/lunwen/2024/vldbj24-zhibin.pdf)
     
-    <!-- {June 2022 - Sept. 2023} -->
 
   1. <span class="conference">ATC 2023</span> Longbin Lai, Yufan Yang, __Zhibin Wang__, Yuxuan Liu, Haotian Ma, Sijie Shen, Bingqing Lyu, Xiaoli Zhou, Wenyuan Yu, Zhengping Qian, Chen Tian, Sheng Zhong, Yeh-Ching Chung, Jingren Zhou.
     [GLogS: Interactive Graph Pattern Matching Query At Large Scale.](https://cs.nju.edu.cn/tianchen/lunwen/2023/atc23-lai.pdf)
@@ -52,7 +51,7 @@
 
   1. <span class="conference">TPDS</span> Santosh Pandey, __Zhibin Wang (co-first author)__, Sheng Zhong, Chen Tian, Bolong Zheng, Xiaoye Li, Lingda Li, Adolfy Hoisie, Caiwen Ding, Dong Li, Hang Liu. [TRUST: Triangle Counting Reloaded on GPUs.](https://cs.nju.edu.cn/tianchen/lunwen/2021/tpds21-zhibin.pdf)
     
-    <!-- `Nov. 2019 - Feb. 2021` -->
+  <!-- `Nov. 2019 - Feb. 2021` -->
     <!-- - Implement a vertex-centric hashing-based triangle counting on GPUs with GPU-friendly hashtable layout. -->
     <!-- - Propose graph reordering to reduce collision in hashtable, virtual combination to balance intra-vertex workload, and degree-aware resources allocation to further reduce collision and balance inter-vertex workload. -->
     <!-- - Scale triangle counting to 1024 GPUs via a graph and workload collaborative partitioning. -->
