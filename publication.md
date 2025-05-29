@@ -65,8 +65,17 @@
 
 ## Preprints
 
+  - <span class="conference">ArXiv</span> __Zhibin Wang__, Shipeng Li, Xue Li, Yuhang Zhou, Zhonghui Zhang, Zibo Wang, Rong Gu, Chen Tian, Kun Yang, Sheng Zhong 
+    [Echo: Efficient Co-Scheduling of Hybrid Online-Offline Tasks for Large Language Model Serving](https://arxiv.org/pdf/2504.03651)
+
+  - <span class="conference">ArXiv</span> __Zhibin Wang__, Rui Ning, Chao Fang, Zhonghui Zhang, Xi Lin, Shaobo Ma, Mo Zhou, Xue Li, Zhongfeng Wang, Chengying Huan, Rong Gu, Kun Yang, Guihai Chen, Sheng Zhong, Chen Tian.
+    [FlashForge: Ultra-Efficient Prefix-Aware Attention for LLM Decoding](https://arxiv.org/pdf/2505.17694)
+
   - <span class="conference">ArXiv</span> __Zhibin Wang__, Shipeng Li, Yuhang Zhou, Xue Li, Rong Gu, Nguyen Cam-Tu, Chen Tian, Sheng Zhong.
     [Revisiting SLO and Goodput Metrics in LLM Serving.](https://arxiv.org/pdf/2410.14257)
+
+  - <span class="conference">ArXiv</span> Hongxu Pan, Shuxian Hu, Mo Zhou, __Zhibin Wang (corresponding author)__, Rong Gu, Chen Tian, Kun Yang, Sheng Zhong
+    [Chordless Structure: A Pathway to Simple and Expressive GNNs](https://arxiv.org/pdf/2505.19188)
 
   - <span class="conference">ArXiv</span> Tao He, Xue Li, __Zhibin Wang__, Kun Qian, Jingbo Xu, Wenyuan Yu, Jingren Zhou.
     [Unicron: Economizing self-healing llm training at scale.](https://arxiv.org/pdf/2401.00134)
