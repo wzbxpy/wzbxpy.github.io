@@ -7,7 +7,7 @@ description: wzb's cv
 markdown: kramdown
 kramdown:
   input: GFM
-  # math_engine: mathjax
+  math_engine: mathjax
 logo: figure/ZhibinWang.jpg
 theme_skin: green
 sass:

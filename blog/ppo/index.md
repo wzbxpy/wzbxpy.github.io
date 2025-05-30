@@ -1,6 +1,7 @@
 ---
 layout: default
 title: PPO算法
+math: true
 ---
 
 # PPO算法
@@ -204,7 +205,7 @@ $$
 \end{aligned}
 $$
 
-即，我们可以用$$\pi$$生成的轨迹来估计$$\pi'$$的梯度，换句话说，我们可以用$$\pi$$的advantage function来估计$$\pi'$$的advantage function。
+即，我们可以用$\pi$生成的轨迹来估计$\pi'$的梯度，换句话说，我们可以用$\pi$的advantage function来估计$\pi'$的advantage function。
 
 对应的loss function为
 
