@@ -16,10 +16,10 @@ Related research has been published in top-tier conferences, such as SIGMOD, PPo
 
 <!-- 王智彬，南京大学智能软件与工程学院助理研究员。2018年至2024年在南京大学计算机科学与技术学院攻读博士学位，导师为[田臣](https://cs.nju.edu.cn/tianchen/index.htm)教授和[仲盛](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)教授。2021年至2024年在阿里巴巴达摩院[GraphScope](https://graphscope.io/)团队实习，导师为[赖龙彬](https://lai.me/)。研究方向包括加速图计算和大模型推理。作为第一作者发表了南大第一篇SIGMOD（数据库顶会）论文和南大第一篇PPoPP（高性能计算顶会）论文。 -->
 
-王智彬，南京大学智能软件与工程学院助理研究员。2018年至2024年在南京大学计算机科学与技术学院攻读博士学位，导师为[田臣教授](https://cs.nju.edu.cn/tianchen/index.htm)和[仲盛教授](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)。2021年至2024年在阿里巴巴达摩院GraphScope团队实习，导师为赖龙彬(https://lai.me/)。研究方向包括加速图计算和大模型推理。作为第一作者发表了南大第一篇SIGMOD（数据库顶会）论文和南大第一篇PPoPP（高性能计算顶会）论文。
+王智彬，南京大学智能软件与工程学院助理研究员。2018年至2024年在南京大学计算机科学与技术学院攻读博士学位，导师为[田臣教授](https://cs.nju.edu.cn/tianchen/index.htm)和[仲盛教授](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)。2021年至2024年在阿里巴巴达摩院GraphScope团队实习，导师为[赖龙彬](https://lai.me/)。研究方向包括加速图计算和大模型推理。作为第一作者发表了南大第一篇SIGMOD（数据库顶会）论文和南大第一篇PPoPP（高性能计算顶会）论文。
 
 ## Prospective Students
-__我们正在寻找对图算法和大模型系统感兴趣的本科生和研究生（详情见[这里](projects/)）。我们欢迎具有扎实算法、数学和编程能力的学生。请通过电子邮件与我联系，附上你的简历。__
+__我们正在寻找对图算法和大模型系统感兴趣的本科生和研究生。我们欢迎具有扎实算法、数学和编程能力的学生。请通过电子邮件与我联系，附上你的简历。__
 
 
 ## Education & Experience (教育与经历)
