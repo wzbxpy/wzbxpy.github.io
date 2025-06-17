@@ -1,7 +1,7 @@
 
 ## Publications
     
-  1. <span class="conference">VLDB 2025</span> MinZe Xu, Zhentai Xie, Zhibin Wang, Guangzhan Wang, Longbin Lai, Yuan Zhang, Chen Tian, Sheng Zhong. [Sectric: Towards Accurate, Privacy-preserving and Efficient Triangle Counting.]()
+  1. <span class="conference">PVLDB 2025</span> MinZe Xu, Zhentai Xie, Zhibin Wang, Guangzhan Wang, Longbin Lai, Yuan Zhang, Chen Tian, Sheng Zhong. [Sectric: Towards Accurate, Privacy-preserving and Efficient Triangle Counting.]()
 
   1. <span class="conference">SIGMOD 2026</span> Yuhang Li, Rong Gu, Chengying Huan, __Zhibin Wang__, 
   Renjie Yao, Chen Tian, Guihai Chen
