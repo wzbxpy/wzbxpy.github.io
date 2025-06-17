@@ -25,8 +25,7 @@
   1. <span class="conference">HPEC 2024</span> Ketai Zhao, Yuhang Zhou, Hong xu Pan, __Zhibin Wang (corresponding author)__, Sheng Zhong and Chen Tian. 
     [Sans: Streaming Anonymized Network Sensing.](https://cs.nju.edu.cn/tianchen/lunwen/2024/hpec24-ketai.pdf) 
     
-  1. <span class="conference">VLDBJ 2024</span> __Zhibin Wang__, Longbin Lai, Yixue Liu, Bing Shui, Chen Tian, Sheng Zhong.  
-    [Parallelization of Butterfly Counting on Hierarchical Memory.](https://cs.nju.edu.cn/tianchen/lunwen/2024/vldbj24-zhibin.pdf)
+  1. <span class="conference">VLDBJ 2024</span> __Zhibin Wang__, Longbin Lai, Yixue Liu, Bing Shui, Chen Tian, Sheng Zhong. [Parallelization of Butterfly Counting on Hierarchical Memory.](https://cs.nju.edu.cn/tianchen/lunwen/2024/vldbj24-zhibin.pdf)
     
 
   1. <span class="conference">HPEC 2023</span> __Zhibin Wang__, Ziheng Meng, Xue Li, Xi Lin, Long Zheng, Chen Tian, and Sheng Zhong. 
