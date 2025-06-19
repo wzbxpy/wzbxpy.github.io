@@ -7,7 +7,7 @@
   Renjie Yao, Chen Tian, Guihai Chen
   [HotPrefix: Hotness-Aware KV Cache Scheduling for Efficient Prefix Sharing in LLM Inference Systems]()
 
-  1. <span class="conference">ATC 2025</span> Yuhang Zhou, Zibo Wang, __Zhibin Wang (corresponding author)__, Ruyi Zhang, Chen Tian, Xiaoliang Wang, Wanchun Dou, Guihai Chen, Binqiang Wang, Yonghong Tian, Yan Zhang, Hui Wang, Fuchun Wei, Boquan Sun, Jingyi Zhang, Bin She, Teng Su, Yifan Yao, Chunsheng Li, Ziyang Zhang, Yaoyuan Wang, Bin Zhou, Guyue Liu [Accelerating Model Training on Ascend Chips: An Industrial System for Profiling, Analysis and Optimization]() 
+  1. <span class="conference">ATC 2025</span> Yuhang Zhou, Zibo Wang, __Zhibin Wang (corresponding author)__, Ruyi Zhang, Chen Tian, Xiaoliang Wang, Wanchun Dou, Guihai Chen, Binqiang Wang, Yonghong Tian, Yan Zhang, Hui Wang, Fuchun Wei, Boquan Sun, Jingyi Zhang, Bin She, Teng Su, Yifan Yao, Chunsheng Li, Ziyang Zhang, Yaoyuan Wang, Bin Zhou, Guyue Liu [Accelerating Model Training on Ascend Chips: An Industrial System for Profiling, Analysis and Optimization](paper/atc25-final684.pdf) 
   
   1. <span class="conference">ASPLOS 2025</span> Yuhang Zhou, __Zhibin Wang (corresponding author)__, Guyue Liu, Shipeng Li, Xi Lin, Zibo Wang, Yongzhong Wang, Fuchun Wei, Jingyi Zhang, Zhiheng Hu, Yanlin Liu, Chunsheng Li, Ziyang Zhang, Yaoyuan Wang, Bin Zhou, Wanchun Dou, Guihai Chen, Chen Tian. [Squeezing Operator Performance Potential for the Ascend Architecture.](https://cs.nju.edu.cn/tianchen/lunwen/2025/asplos25-yuhang.pdf) 
 
