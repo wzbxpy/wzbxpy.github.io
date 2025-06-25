@@ -12,7 +12,7 @@ title: students
 
 - [Yuhang Zhou 周宇航](https://njuzyh.github.io/) (PhD student, `2021.09 - present`)
 
-- [Zibo Wang 王梓博](https://wangzb.site/) (PhD student, `2021.09 - present`)
+- [Zibo Wang 王梓博](https://wangzb.site/) (PhD student, `2022.09 - present`)
 
 - Ziheng Meng 孟子恒 (Master student, `2023.09 - present`)
 
