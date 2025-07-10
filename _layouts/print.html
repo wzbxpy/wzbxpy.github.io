@@ -7,22 +7,40 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
 <html lang="en">
-  <!--<![endif]-->
-  {% include head.html %}
-  <style>
-    body {
-      padding: 0 !important;
-    }
-    .wrapper {
-      max-width: unset !important;
-    }
-  </style>
-  <body>
-    <div class="wrapper">
-      {% include sidebar.html %}
+<!--<![endif]-->
+{% include head.html %}
+<style>
+  body {
+    padding: 0 !important;
+    zoom: 0.9;
+  }
 
-      <div class="main-wrapper">{{ content }}</div>
-    </div>
-    {% include scripts.html %}
-  </body>
+  /* .wrapper {
+    max-width: unset !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+  }
+
+  .sidebar {
+    width: 250px !important;
+    min-width: 200px !important;
+    max-width: 300px !important;
+  }
+
+  .main-wrapper {
+    flex: 1 1 auto !important;
+    width: auto !important;
+  } */
+</style>
+
+<body>
+  <div class="wrapper">
+    {% include sidebar.html %}
+
+    <div class="main-wrapper">{{ content }}</div>
+  </div>
+  {% include scripts.html %}
+</body>
+
 </html>
