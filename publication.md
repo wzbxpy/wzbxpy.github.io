@@ -1,7 +1,7 @@
 
 ## Publications
     
-  1. <span class="conference">PVLDB 2025</span> MinZe Xu, Zhentai Xie, Zhibin Wang, Guangzhan Wang, Longbin Lai, Yuan Zhang, Chen Tian, Sheng Zhong. [Sectric: Towards Accurate, Privacy-preserving and Efficient Triangle Counting.](paper/VLDB25-sectric.pdf)
+  1. <span class="conference">PVLDB 2025</span> MinZe Xu, Zhentai Xie, __Zhibin Wang__, Guangzhan Wang, Longbin Lai, Yuan Zhang, Chen Tian, Sheng Zhong. [Sectric: Towards Accurate, Privacy-preserving and Efficient Triangle Counting.](paper/VLDB25-sectric.pdf)
 
   1. <span class="conference">SIGMOD 2026</span> Yuhang Li, Rong Gu, Chengying Huan, __Zhibin Wang__, 
   Renjie Yao, Chen Tian, Guihai Chen
@@ -30,7 +30,7 @@
 
   1. <span class="conference">HPEC 2023</span> __Zhibin Wang__, Ziheng Meng, Xue Li, Xi Lin, Long Zheng, Chen Tian, and Sheng Zhong. 
     [SMOG: Accelerating Subgraph Matching on GPUs.](https://cs.nju.edu.cn/tianchen/lunwen/2023/hpec23-zhibin.pdf)
-    [🎉 Awarded Graph Challenge Champion.](https://graphchallenge.mit.edu/champions)
+    [Awarded Graph Challenge Champion.](https://graphchallenge.mit.edu/champions)
 
 
   1. <span class="conference">ATC 2023</span> Longbin Lai, Yufan Yang, __Zhibin Wang__, Yuxuan Liu, Haotian Ma, Sijie Shen, Bingqing Lyu, Xiaoli Zhou, Wenyuan Yu, Zhengping Qian, Chen Tian, Sheng Zhong, Yeh-Ching Chung, Jingren Zhou.
