@@ -25,9 +25,10 @@ ppt在：[链接](https://github.com/jiadong5/ECE408_FA23_UIUC/tree/master/Lectu
 - __并行/分布式算法__：6.506 Algorithm Engineering Spring 2024 
 [链接](https://jshun.csail.mit.edu/6506-s24/)
 
-## 数据库以及图计算 (DB)
+## 数据库以及图计算 
 
 - 图计算：[链接](https://jshun.csail.mit.edu/6886-s18/) （但说实话和并行算法有点像，可以学并行算法）
+- 图算法：[链接](https://www.edx.org/learn/computer-programming/cornell-university-networks-crowds-and-markets) （这是一门很有趣的课程，可以加深你对图在现实世界中应用的理解）
 
 ## 大模型系统 (LLM System)
 
@@ -50,14 +51,13 @@ __入门视频__
 视频在：[链接](https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn)
 
 
-## 近似算法
+<!-- ## 近似算法 -->
 
 <!-- ### 图采样算法
 [链接](https://www.usenix.org/conference/atc23/presentation/lai)
 可以看一下这个论文以及附录的证明，特别是那个采样的分析，看看对这种数学的分析感不感兴趣 -->
 
 ### 向量数据库
-<!-- - __系统方向__ [Glogs](https://www.usenix.org/conference/nsdi24/presentation/zhang-zili-pipelining) 这个是向量数据库最新的论文，可以看一下，看看对这种系统的设计感不感兴趣 -->
 - __算法方向__ 先简单学一下这个课程 [链接](https://www.youtube.com/watch?v=sKyvsdEv6rk)
 
 _除了上述内容，也可以学习数据挖掘的内容，有很大一部分是向量数据库的内容_
