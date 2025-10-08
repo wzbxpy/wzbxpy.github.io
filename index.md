@@ -7,6 +7,7 @@ title: Home
 <!-- # Zhibin Wang (王智彬) -->
 ## Biography
 I am an assistant researcher in School of Intelligent Software and Engineering, Nanjing University.
+I am also a member of [NASA](https://nasa.nju.edu.cn/) and [COSEC](https://cosec.nju.edu.cn/).
 I received my Ph.D. degree in School of Computer Science, Nanjing University, advised by [Prof. Chen Tian](https://cs.nju.edu.cn/tianchen/index.htm) and [Prof. Sheng Zhong](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm). I have been interning at [GraphScope](https://graphscope.io/) team in Alibaba DAMO Academy from 2021 to 2024, supervised by [Longbin Lai](https://lai.me/). 
 My research interests include accelerating subgraph matching and other graph algorithms using new hardware, especially GPUs. Recently, I am engaged in accelerating LLM inference. 
 Related research has been published in top-tier conferences, such as SIGMOD, PPoPP and ATC.
