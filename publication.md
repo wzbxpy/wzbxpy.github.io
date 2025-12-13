@@ -1,13 +1,13 @@
 
 ## Publications
     
-  1. <span class="conference">PVLDB 2025</span> MinZe Xu, Zhentai Xie, __Zhibin Wang__, Guangzhan Wang, Longbin Lai, Yuan Zhang, Chen Tian, Sheng Zhong. [Sectric: Towards Accurate, Privacy-preserving and Efficient Triangle Counting.](paper/VLDB25-sectric.pdf)
+  1. <span class="conference">INFOCOM 2026</span> Yuhang Zhou, __Zhibin Wang (corresponding author)__, Peng Jiang, Haoran Xia, Junhe Lu, Qianyu Jiang, Rong Gu, Hengxi Xu, Xinjing Huang, Guanghuan Fang, Zhiheng Hu, Jingyi Zhang, Yongjin Cai, Jian He, Chen Tian. [Chameleon: Adaptive Fault Tolerance for Distributed Training via Real-time Policy Selection.]()
 
-  1. <span class="conference">SIGMOD 2026</span> Yuhang Li, Rong Gu, Chengying Huan, __Zhibin Wang__, 
-  Renjie Yao, Chen Tian, Guihai Chen
-  [HotPrefix: Hotness-Aware KV Cache Scheduling for Efficient Prefix Sharing in LLM Inference Systems]()
+  2. <span class="conference">PVLDB 2025</span> MinZe Xu, Zhentai Xie, __Zhibin Wang__, Guangzhan Wang, Longbin Lai, Yuan Zhang, Chen Tian, Sheng Zhong. [Sectric: Towards Accurate, Privacy-preserving and Efficient Triangle Counting.](paper/VLDB25-sectric.pdf)
 
-  1. <span class="conference">ATC 2025</span> Yuhang Zhou, Zibo Wang, __Zhibin Wang (corresponding author)__, Ruyi Zhang, Chen Tian, Xiaoliang Wang, Wanchun Dou, Guihai Chen, Binqiang Wang, Yonghong Tian, Yan Zhang, Hui Wang, Fuchun Wei, Boquan Sun, Jingyi Zhang, Bin She, Teng Su, Yifan Yao, Chunsheng Li, Ziyang Zhang, Yaoyuan Wang, Bin Zhou, Guyue Liu [Accelerating Model Training on Ascend Chips: An Industrial System for Profiling, Analysis and Optimization](paper/atc25-zhou.pdf) 
+  3. <span class="conference">SIGMOD 2026</span> Yuhang Li, Rong Gu, Chengying Huan, __Zhibin Wang__, Renjie Yao, Chen Tian, Guihai Chen. [HotPrefix: Hotness-Aware KV Cache Scheduling for Efficient Prefix Sharing in LLM Inference Systems](https://cs.nju.edu.cn/tianchen/lunwen/2026/sigmod26-liyuhang.pdf)
+
+  1. <span class="conference">ATC 2025</span> Yuhang Zhou, Zibo Wang, __Zhibin Wang (corresponding author)__, Ruyi Zhang, Chen Tian, Xiaoliang Wang, Wanchun Dou, Guihai Chen, Binqiang Wang, Yonghong Tian, Yan Zhang, Hui Wang, Fuchun Wei, Boquan Sun, Jingyi Zhang, Bin She, Teng Su, Yifan Yao, Chunsheng Li, Ziyang Zhang, Yaoyuan Wang, Bin Zhou, Guyue Liu. [Accelerating Model Training on Ascend Chips: An Industrial System for Profiling, Analysis and Optimization](paper/atc25-zhou.pdf) 
   
   2. <span class="conference">ASPLOS 2025</span> Yuhang Zhou, __Zhibin Wang (corresponding author)__, Guyue Liu, Shipeng Li, Xi Lin, Zibo Wang, Yongzhong Wang, Fuchun Wei, Jingyi Zhang, Zhiheng Hu, Yanlin Liu, Chunsheng Li, Ziyang Zhang, Yaoyuan Wang, Bin Zhou, Wanchun Dou, Guihai Chen, Chen Tian. [Squeezing Operator Performance Potential for the Ascend Architecture.](https://cs.nju.edu.cn/tianchen/lunwen/2025/asplos25-yuhang.pdf) [__Wechat Blog__](https://mp.weixin.qq.com/s/cWVJptOhZyGZhSzjQEs2iA)
 
