@@ -15,17 +15,18 @@ Related research has been published in top-tier conferences, such as SIGMOD, PPo
 <span style="float: right;">__Nanjing University__</span>
 - Ph.D. in Computer Science and Technology
 
+`Sept. 2014 - June 2018`
+<span style="float: right;">__Nanjing University of Aeronautics and Astronautics__</span>
+- B.E. in Computer Science and Technology
+
 `May 2021 - June 2024`
 <span style="float: right;">__Alibaba DAMO Academy__</span>
 - Research intern in GraphScope team
 
-`July 2024 - Oct. 2024`
+<!-- `July 2024 - Oct. 2024`
 <span style="float: right;">__Huawei 2012 Lab__</span>
-- Research intern in Mindspore team
+- Research intern in Mindspore team -->
 
-<!-- `Sept. 2014 - June 2018`
-__Nanjing University of Aeronautics and Astronautics__
-- B.E. in Computer Science and Technology -->
 
 {% include_relative publication.md %}
 
