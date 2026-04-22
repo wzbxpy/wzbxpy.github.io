@@ -10,13 +10,13 @@ title: Home
 <!-- # Zhibin Wang (王智彬) -->
 ## Biography (简介)
 <!-- I am an assistant researcher in School of Intelligent Software and Engineering, Nanjing University.
-I received my Ph.D. degree in School of Computer Science, Nanjing University, advised by [Prof. Chen Tian](https://cs.nju.edu.cn/tianchen/index.htm) and [Prof. Sheng Zhong](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm). I have been interning at [GraphScope](https://graphscope.io/) team in Alibaba DAMO Academy from 2021 to 2024, supervised by [Longbin Lai](https://lai.me/). 
-My research interests include accelerating subgraph matching and other graph algorithms using new hardware, especially GPUs. Recently, I am engaged in accelerating LLM inference. 
+I received my Ph.D. degree in School of Computer Science, Nanjing University, advised by [Prof. Chen Tian](https://cs.nju.edu.cn/tianchen/index.htm) and [Prof. Sheng Zhong](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm).
+My current research focus is on ML systems, including efficient training, serving, and kernel optimization for large language models.
 Related research has been published in top-tier conferences, such as SIGMOD, PPoPP and ATC. -->
 
-<!-- 王智彬，南京大学智能软件与工程学院助理研究员。2018年至2024年在南京大学计算机科学与技术学院攻读博士学位，导师为[田臣](https://cs.nju.edu.cn/tianchen/index.htm)教授和[仲盛](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)教授。2021年至2024年在阿里巴巴达摩院[GraphScope](https://graphscope.io/)团队实习，导师为[赖龙彬](https://lai.me/)。研究方向包括加速图计算和大模型推理。作为第一作者发表了南大第一篇SIGMOD（数据库顶会）论文和南大第一篇PPoPP（高性能计算顶会）论文。 -->
+<!-- 王智彬，南京大学智能软件与工程学院助理研究员。2018年至2024年在南京大学计算机科学与技术学院攻读博士学位，导师为[田臣](https://cs.nju.edu.cn/tianchen/index.htm)教授和[仲盛](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)教授。当前主要研究机器学习系统，尤其关注大语言模型的高效训练、服务与内核优化。作为第一作者发表了南大第一篇SIGMOD（数据库顶会）论文和南大第一篇PPoPP（高性能计算顶会）论文。 -->
 
-王智彬，南京大学智能软件与工程学院助理研究员。2018年至2024年在南京大学计算机科学与技术学院攻读博士学位，导师为[田臣教授](https://cs.nju.edu.cn/tianchen/index.htm)和[仲盛教授](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)。2021年至2024年在阿里巴巴达摩院GraphScope团队实习，导师为[赖龙彬](https://lai.me/)。研究方向包括加速图计算和大模型推理。作为第一作者发表了南大第一篇SIGMOD（数据库顶会）论文和南大第一篇PPoPP（高性能计算顶会）论文。
+王智彬，南京大学智能软件与工程学院助理研究员。2018年至2024年在南京大学计算机科学与技术学院攻读博士学位，导师为[田臣教授](https://cs.nju.edu.cn/tianchen/index.htm)和[仲盛教授](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)。当前主要研究机器学习系统，尤其关注大语言模型的高效训练、服务与内核优化。作为第一作者发表了南大第一篇SIGMOD（数据库顶会）论文和南大第一篇PPoPP（高性能计算顶会）论文。
 
 
 
@@ -27,16 +27,12 @@ Related research has been published in top-tier conferences, such as SIGMOD, PPo
 - 计算机科学与技术博士
 
 `May 2021 - June 2024`
-<span style="float: right;">__阿里巴巴达摩院__</span>
-- 研究型实习生
+<span style="float: right;">__阿里巴巴__</span>
+- 通义实验室研究型实习生
 
 `July 2024 - Oct. 2024`
-<span style="float: right;">__华为2012实验室__</span>
-- 研究型实习生
-
-<!-- `Sept. 2014 - June 2018`
-__Nanjing University of Aeronautics and Astronautics__
-- B.E. in Computer Science and Technology -->
+<span style="float: right;">__华为__</span>
+- MindSpore团队研究型实习生
 
 {% include_relative publication.md %}
 
