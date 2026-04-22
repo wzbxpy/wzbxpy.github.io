@@ -9,9 +9,9 @@
     [CMANNS: GPU-Accelerated Graph Index Construction for ANNS via Compute–Memory Disaggregation.]()
 
   15. <span class="conference">DAC 2026</span> Zibo Wang, Yuhang Zhou, __Zhibin Wang (corresponding author)__, Shipeng Li, Xinjing Huang, Chendong Cai, Bingxu Mu, Yuqing Sun, Zhiheng Hu, Bin She, Shu You, Guanghuan Fang, Rong Gu, Wanchun Dou, Guihai Chen and Chen Tian.
-    [SmartSwap: Swap-Based Memory Optimization for LLM Training under Varying Operator Sequences.](https://arxiv.org/abs/2509.11076)
+    [SmartSwap: Swap-Based Memory Optimization for LLM Training under Varying Operator Sequences.](https://arxiv.org/pdf/2509.11076)
 
-  14. <span class="conference">INFOCOM 2026</span> Yuhang Zhou, __Zhibin Wang (corresponding author)__, Peng Jiang, Haoran Xia, Junhe Lu, Qianyu Jiang, Rong Gu, Hengxi Xu, Xinjing Huang, Guanghuan Fang, Zhiheng Hu, Jingyi Zhang, Yongjin Cai, Jian He, Chen Tian. [Chameleon: Adaptive Fault Tolerance for Distributed Training via Real-time Policy Selection.](https://arxiv.org/abs/2508.21613)
+  14. <span class="conference">INFOCOM 2026</span> Yuhang Zhou, __Zhibin Wang (corresponding author)__, Peng Jiang, Haoran Xia, Junhe Lu, Qianyu Jiang, Rong Gu, Hengxi Xu, Xinjing Huang, Guanghuan Fang, Zhiheng Hu, Jingyi Zhang, Yongjin Cai, Jian He, Chen Tian. [Chameleon: Adaptive Fault Tolerance for Distributed Training via Real-time Policy Selection.](https://arxiv.org/pdf/2508.21613)
 
   13. <span class="conference">PVLDB 2025</span> MinZe Xu, Zhentai Xie, __Zhibin Wang__, Guangzhan Wang, Longbin Lai, Yuan Zhang, Chen Tian, Sheng Zhong. [Sectric: Towards Accurate, Privacy-preserving and Efficient Triangle Counting.](paper/VLDB25-sectric.pdf)
 
