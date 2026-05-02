@@ -2,6 +2,12 @@
 ## Publications
     
 
+  19. <span class="conference">HPDC 2026</span> __Zhibin Wang__, Zetao Hong, Xue Li, Zibo Wang, Shipeng Li, Qingkai Meng, Qing Wang, Chengying Huan, Rong Gu, Sheng Zhong, Chen Tian.
+    [STAR: Decode-Phase Rescheduling for LLM Inference.]()
+
+  18. <span class="conference">HPDC 2026</span> Chengying Huan, Ziheng Meng, Zhengyi Yang, Yongchao Liu, Jie Zhang, Qing Wang, Jing Wang, Shaonan Ma, __Zhibin Wang__, Mingxing Zhang, Rong Gu, Baokun Wang, Guihai Chen, Chen Tian.
+    [BCCE: Block-Centric GPU Co-Design for Real-Time Range-Top-K Query at Scale.]()
+
   17. <span class="conference">SIGMOD 2026</span> __Zhibin Wang__, Rui Ning, Chao Fang, Zhonghui Zhang, Xi Lin, Shaobo Ma, Mo Zhou, Xue Li, Zhongfeng Wang, Chengying Huan, Rong Gu, Kun Yang, Guihai Chen, Sheng Zhong, Chen Tian.
     [CoDec: Prefix-Shared Decoding Kernel for LLMs.](https://arxiv.org/pdf/2505.17694)
 
