@@ -9,16 +9,16 @@ title: Chinese
 
 <!-- # Zhibin Wang (王智彬) -->
 ## Biography (简介)
-<!-- I am an assistant researcher in School of Intelligent Software and Engineering, Nanjing University.
+<!-- I am an Assistant Professor in the School of Software, Nanjing University.
 I am also a member of [COSEC](https://cosec.nju.edu.cn/) and [NASA](https://nasa.nju.edu.cn/).
 
 I received my Ph.D. degree in School of Computer Science, Nanjing University, advised by [Prof. Chen Tian](https://cs.nju.edu.cn/tianchen/index.htm) and [Prof. Sheng Zhong](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm).
 My current research focus is on ML systems, including efficient training, serving, and kernel optimization for large language models.
 Related research has been published in top-tier conferences, such as SIGMOD, PPoPP and ATC. -->
 
-<!-- 王智彬，南京大学智能软件与工程学院助理研究员。2018年至2024年在南京大学计算机科学与技术学院攻读博士学位，导师为[田臣](https://cs.nju.edu.cn/tianchen/index.htm)教授和[仲盛](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)教授。当前主要研究机器学习系统，尤其关注大语言模型的高效训练、服务与内核优化。作为第一作者发表了南大第一篇SIGMOD（数据库顶会）论文和南大第一篇PPoPP（高性能计算顶会）论文。 -->
+<!-- 王智彬，南京大学软件学院助理教授。2018年至2024年在南京大学计算机科学与技术学院攻读博士学位，导师为[田臣](https://cs.nju.edu.cn/tianchen/index.htm)教授和[仲盛](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)教授。当前主要研究机器学习系统，尤其关注大语言模型的高效训练、服务与内核优化。作为第一作者发表了南大第一篇SIGMOD（数据库顶会）论文和南大第一篇PPoPP（高性能计算顶会）论文。 -->
 
-王智彬，南京大学智能软件与工程学院助理研究员，也是[NASA实验室](https://nasa.nju.edu.cn/)和[COSEC实验室](https://cosec.nju.edu.cn/)的成员。
+王智彬，南京大学软件学院助理教授，也是[NASA实验室](https://nasa.nju.edu.cn/)和[COSEC实验室](https://cosec.nju.edu.cn/)的成员。
 2018年至2024年在南京大学计算机科学与技术学院攻读博士学位，导师为[田臣教授](https://cs.nju.edu.cn/tianchen/index.htm)和[仲盛教授](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)。当前主要研究机器学习系统，尤其关注大语言模型的高效训练、服务与内核优化。在系统和数据库领域发表CCF A类论文10余篇。作为第一作者发表了南大第一篇SIGMOD（数据库顶会）论文和南大第一篇PPoPP（高性能计算顶会）论文。
 
 ## Prospective Students
