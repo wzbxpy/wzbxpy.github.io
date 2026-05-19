@@ -7,7 +7,8 @@ title: Home
 I am an Assistant Professor in the School of Software, Nanjing University.
 I received my Ph.D. degree in School of Computer Science, Nanjing University, advised by [Prof. Chen Tian](https://cs.nju.edu.cn/tianchen/index.htm) and [Prof. Sheng Zhong](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm).
 My current research focus is on ML systems, including efficient training, serving, and kernel optimization for large language models.
-Related research has been published in top-tier conferences, such as SIGMOD, PPoPP and ATC.
+Related research has been published in top-tier conferences, such as SIGMOD, PPoPP, HPDC, and ATC.
+As the first author, I have published Nanjing University's first SIGMOD, PPoPP, and HPDC papers.
 
 ## Education & Experience
 
@@ -35,5 +36,3 @@ Related research has been published in top-tier conferences, such as SIGMOD, PPo
 - `2016` __Outstanding Undergraduate Award__, CCF(China Computer Federation)
 
 - `2023` __Outstanding Research intern__, Alibaba
-
-
