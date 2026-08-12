@@ -6,7 +6,7 @@ title: Home
 **[中文点这里](chinese)**
 <!-- # Zhibin Wang (王智彬) -->
 ## Biography
-I am an Assistant Professor in the School of Software, Nanjing University.
+I am an Assistant Professor in the Software Institute, Nanjing University.
 I am also a member of [NASA](https://nasa.nju.edu.cn/) and [COSEC](https://cosec.nju.edu.cn/).
 I received my Ph.D. degree in School of Computer Science, Nanjing University, advised by [Prof. Chen Tian](https://cs.nju.edu.cn/tianchen/index.htm) and [Prof. Sheng Zhong](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm). 
 <!-- I have been interning at [GraphScope](https://graphscope.io/) team in Alibaba DAMO Academy from 2021 to 2024, supervised by [Longbin Lai](https://lai.me/).  -->
@@ -14,24 +14,34 @@ My current research focus is on AI Infra, including efficient training, serving,
 Related research has been published in top-tier conferences, such as SIGMOD, PPoPP, HPDC, and ATC.
 As the first author, I have published Nanjing University's first SIGMOD, PPoPP, and HPDC papers.
 
-<!-- 王智彬，南京大学软件学院助理教授。2018年至2024年在南京大学计算机科学与技术学院攻读博士学位，导师为[田臣](https://cs.nju.edu.cn/tianchen/index.htm)教授和[仲盛](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)教授。2021年至2024年在阿里巴巴达摩院[GraphScope](https://graphscope.io/)团队实习，导师为[赖龙彬](https://lai.me/)。当前主要研究AI Infra，尤其关注大语言模型的高效训练、服务与内核优化。作为第一作者发表了南大第一篇SIGMOD、PPoPP和HPDC论文。 -->
+<!-- 王智彬，南京大学软件学院助理教授。2018年至2024年在南京大学计算机学院攻读博士学位，导师为[田臣](https://cs.nju.edu.cn/tianchen/index.htm)教授和[仲盛](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)教授。2021年至2024年在阿里巴巴达摩院[GraphScope](https://graphscope.io/)团队实习，导师为[赖龙彬](https://lai.me/)。当前主要研究AI Infra，尤其关注大语言模型的高效训练、服务与内核优化。作为第一作者发表了南大第一篇SIGMOD、PPoPP和HPDC论文。 -->
 
 ## Prospective Students
 __We are looking for self-motivated students who are interested in AI Infra. We welcome students with strong algorithmic, mathematical, and programming skills. Please contact me by email with your CV.__
 
+__Please select the Software Institute (软件学院) when applying. I was previously affiliated with the School of Intelligent Software and Engineering (智能软件与工程学院), so please be careful not to select the wrong school.__
+
 ## Education & Experience
+
+`May 2026 - Present`
+<span style="float: right;">__Nanjing University__</span>
+- Assistant Professor <span style="float: right;">__Software Institute__</span>
+
+`Nov. 2024 - Apr. 2026`
+<span style="float: right;">__Nanjing University__</span>
+- Assistant Researcher <span style="float: right;">__School of Intelligent Software and Engineering__</span>
 
 `Sept. 2018 - Sept. 2024`
 <span style="float: right;">__Nanjing University__</span>
-- Ph.D. in Computer Science and Technology
+- Ph.D. in Computer Science and Technology <span style="float: right;">__School of Computer Science__</span>
 
 `May 2021 - June 2024`
 <span style="float: right;">__Alibaba__</span>
-- Research intern in Tongyi Lab
+- Research Intern <span style="float: right;">__Tongyi Lab__</span>
 
 `July 2024 - Oct. 2024`
 <span style="float: right;">__Huawei__</span>
-- Research intern in Mindspore team
+- Research Intern <span style="float: right;">__MindSpore Team__</span>
 
 <!-- `Sept. 2014 - June 2018`
 __Nanjing University of Aeronautics and Astronautics__
