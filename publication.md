@@ -82,13 +82,28 @@
 
 ## Preprints
 
+  - <span class="conference">ArXiv</span> Zetao Hong, Song Yuan, Yuanhao Ding, Yibo Zhu, Daxin Jiang, __Zhibin Wang (corresponding author)__, Chen Tian.
+    [Scheduling Mixed RL Rollouts Beyond Prefix Locality](paper/ArXiv26-Zetao-MISA-T.pdf)
+
+  - <span class="conference">ArXiv</span> Qianggang Ding, Xingyao Wang, Rui Feng, __Zhibin Wang__, Feixiang Wang, Kelong Mao, Hao Sun, Zhiyao Luo, Jiankai Tang, Lei Li, Jiadong Guo, Minheng Ni, Weicong Lin, Chenxi Yang, Hongxiang Gao, Zhenghua Chen, Yang Bai, Min Wu, Jun Cheng, Huazhu Fu, Dacheng Tao, Bang Liu.
+    [ComBodied Agents: a New Paradigm of Human-Centric Agentic AI](paper/ArXiv26-Qianggang-ComBodied.pdf)
+
+  - <span class="conference">ArXiv</span> Yikai Wang, Chuansai Zhou, Yuhang Zhou, Weiqiang Wu, Cong Wu, Yue Deng, Ben Feng, Mingming Zhu, Beirong Zhou, __Zhibin Wang (corresponding author)__, Sheng Zhong, Chen Tian, Wangze Zhang.
+    [MoE Proxy Models for Low-Cost Failure Reproduction and Diagnosis in LLM RL Post-Training](paper/ArXiv26-Yikai-MoEProxy.pdf)
+
+  - <span class="conference">ArXiv</span> Yuhang Zhou, Peng Jiang, Qianyu Jiang, __Zhibin Wang (corresponding author)__, Xinghui Tian, Jianwei Zhou, Songxiang Zhu, Jingyi Zhang, Junsong Wang, Chen Tian.
+    [Adaptive Matrix Multiplication for Dynamic Shapes on Ascend NPUs](paper/ArXiv26-Yuhang-AdaptCore.pdf)
+
+  - <span class="conference">ArXiv</span> Chengying Huan, Yubo Wang, Pinhuan Wang, Lizheng Chen, Jie Zhang, Fangxin Liu, Qing Wang, Ruixuan Liu, Shaonan Ma, Mingxing Zhang, __Zhibin Wang__, Rong Gu, Guihai Chen, Chen Tian.
+    [TIDE-MC: Two-Sided Interpolative Decomposition for Billion-Scale GPU Matrix Completion](paper/ArXiv26-Chengying-TIDE-MC.pdf)
+
   - <span class="conference">ArXiv</span> __Zhibin Wang__, Xuying Han, Zhaohua Yang, Fuliang Liu, Xue Li, Rong Gu, Sheng Zhong, Chen Tian.
     [SpecLA: Efficient Speculative Decoding for Linear-Attention Models](paper/ArXiv26-Zhibin-SpecLA.pdf)
 
   - <span class="conference">ArXiv</span> __Zhibin Wang__, Ziyu Zhong, Nuo Shen, Yuhang Zhou, Rong Gu, Sheng Zhong.
     [SSV: Sparse Speculative Verification for Efficient LLM Inference](paper/ArXiv26-Zhibin-SSV.pdf)
 
-  - <span class="conference">ArXiv</span> Fuliang Liu, Xue Li, Ketai Zhao, Yinxi Gao, Ziyan Zhou, Zhonghui Zhang, __Zhibin Wang__, Wanchun Dou, Sheng Zhong, Chen Tian.
+  - <span class="conference">ArXiv</span> Fuliang Liu, Xue Li, Ketai Zhao, Yinxi Gao, Ziyan Zhou, Zhonghui Zhang, __Zhibin Wang (corresponding author)__, Wanchun Dou, Sheng Zhong, Chen Tian.
     [DART: Diffusion-Inspired Speculative Decoding for Fast LLM Inference](paper/ArXiv26-Fuliang-DART.pdf)
 
   - <span class="conference">ArXiv</span> __Zhibin Wang__, Zhonghui Zhang, Yuhang Zhou, Zibo Wang, Mo Zhou, Peng Jiang, Weilin Cai, Chengying Huan, Rong Gu, Sheng Zhong, Chen Tian.
