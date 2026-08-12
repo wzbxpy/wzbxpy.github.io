@@ -28,35 +28,48 @@ __请注意：申请或报考时请选择“软件学院”。我此前在“智
 
 ## Education & Experience (教育与经历)
 
-`May 2026 - Present`
-<span style="float: right;">__南京大学__</span>
-- 助理教授 <span style="float: right;">__软件学院__</span>
-
-`Nov. 2024 - Apr. 2026`
-<span style="float: right;">__南京大学__</span>
-- 助理研究员 <span style="float: right;">__智能软件与工程学院__</span>
-
-`Sept. 2018 - Sept. 2024`
-<span style="float: right;">__南京大学__</span>
-- 计算机科学与技术博士 <span style="float: right;">__计算机学院__</span>
-
-`May 2021 - June 2024`
-<span style="float: right;">__阿里巴巴__</span>
-- 研究型实习生 <span style="float: right;">__通义实验室__</span>
-
-`July 2024 - Oct. 2024`
-<span style="float: right;">__华为__</span>
-- 研究型实习生 <span style="float: right;">__MindSpore团队__</span>
+<div class="experience-list">
+  <div class="experience-item">
+    <div class="experience-date"><code class="date-badge">2026.05 – 至今</code></div>
+    <div class="experience-organization">南京大学</div>
+    <div class="experience-role">助理教授</div>
+    <div class="experience-department">软件学院</div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-date"><code class="date-badge">2024.11 – 2026.04</code></div>
+    <div class="experience-organization">南京大学</div>
+    <div class="experience-role">助理研究员</div>
+    <div class="experience-department">智能软件与工程学院</div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-date"><code class="date-badge">2018.09 – 2024.09</code></div>
+    <div class="experience-organization">南京大学</div>
+    <div class="experience-role">博士</div>
+    <div class="experience-department">计算机学院</div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-date"><code class="date-badge">2021.05 – 2024.06</code></div>
+    <div class="experience-organization">阿里巴巴</div>
+    <div class="experience-role">研究型实习生</div>
+    <div class="experience-department">通义实验室</div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-date"><code class="date-badge">2024.07 – 2024.10</code></div>
+    <div class="experience-organization">华为</div>
+    <div class="experience-role">研究型实习生</div>
+    <div class="experience-department">MindSpore团队</div>
+  </div>
+</div>
 
 {% include_relative publication.md %}
 
 
 ## Honors & Awards (荣誉与奖项)
-- `2015` __金牌__  ACM-ICPC亚洲区域赛
+- <code class="date-badge">2015</code> __金牌__  ACM-ICPC亚洲区域赛
 <!-- - (Chang Chun Site) -->
 
-- `2015` __国家奖学金__
+- <code class="date-badge">2015</code> __国家奖学金__
 
-- `2016` __优秀本科生__ 中国计算机学会
+- <code class="date-badge">2016</code> __优秀本科生__ 中国计算机学会
 
-- `2023` __优秀实习生__ 阿里巴巴
+- <code class="date-badge">2023</code> __优秀实习生__ 阿里巴巴

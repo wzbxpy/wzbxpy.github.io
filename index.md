@@ -23,25 +23,38 @@ __Please select the Software Institute (软件学院) when applying. I was previ
 
 ## Education & Experience
 
-`May 2026 - Present`
-<span style="float: right;">__Nanjing University__</span>
-- Assistant Professor <span style="float: right;">__Software Institute__</span>
-
-`Nov. 2024 - Apr. 2026`
-<span style="float: right;">__Nanjing University__</span>
-- Assistant Researcher <span style="float: right;">__School of Intelligent Software and Engineering__</span>
-
-`Sept. 2018 - Sept. 2024`
-<span style="float: right;">__Nanjing University__</span>
-- Ph.D. in Computer Science and Technology <span style="float: right;">__School of Computer Science__</span>
-
-`May 2021 - June 2024`
-<span style="float: right;">__Alibaba__</span>
-- Research Intern <span style="float: right;">__Tongyi Lab__</span>
-
-`July 2024 - Oct. 2024`
-<span style="float: right;">__Huawei__</span>
-- Research Intern <span style="float: right;">__MindSpore Team__</span>
+<div class="experience-list">
+  <div class="experience-item">
+    <div class="experience-date"><code class="date-badge">May 2026 – Present</code></div>
+    <div class="experience-organization">Nanjing University</div>
+    <div class="experience-role">Assistant Professor</div>
+    <div class="experience-department">Software Institute</div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-date"><code class="date-badge">Nov. 2024 – Apr. 2026</code></div>
+    <div class="experience-organization">Nanjing University</div>
+    <div class="experience-role">Assistant Researcher</div>
+    <div class="experience-department">School of Intelligent Software and Engineering</div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-date"><code class="date-badge">Sept. 2018 – Sept. 2024</code></div>
+    <div class="experience-organization">Nanjing University</div>
+    <div class="experience-role">PhD</div>
+    <div class="experience-department">School of Computer Science</div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-date"><code class="date-badge">May 2021 – June 2024</code></div>
+    <div class="experience-organization">Alibaba</div>
+    <div class="experience-role">Research Intern</div>
+    <div class="experience-department">Tongyi Lab</div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-date"><code class="date-badge">July 2024 – Oct. 2024</code></div>
+    <div class="experience-organization">Huawei</div>
+    <div class="experience-role">Research Intern</div>
+    <div class="experience-department">MindSpore Team</div>
+  </div>
+</div>
 
 <!-- `Sept. 2014 - June 2018`
 __Nanjing University of Aeronautics and Astronautics__
@@ -50,14 +63,14 @@ __Nanjing University of Aeronautics and Astronautics__
 {% include_relative publication.md %}
 
 ## Honors & Awards
-- `2015` __Gold Medal__, ACM-ICPC Asia Regional Contest
+- <code class="date-badge">2015</code> __Gold Medal__, ACM-ICPC Asia Regional Contest
 <!-- - (Chang Chun Site) -->
 
-- `2015` __China National Scholarship__ 
+- <code class="date-badge">2015</code> __China National Scholarship__
 
-- `2016` __Outstanding Undergraduate Award__, CCF(China Computer Federation)
+- <code class="date-badge">2016</code> __Outstanding Undergraduate Award__, CCF(China Computer Federation)
 
-- `2023` __Outstanding Research intern__, Alibaba
+- <code class="date-badge">2023</code> __Outstanding Research intern__, Alibaba
 
 {% include_relative teaching.md %}
 

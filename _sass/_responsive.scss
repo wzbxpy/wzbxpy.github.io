@@ -26,6 +26,26 @@
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+
+  .experience-item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "date"
+      "organization"
+      "department"
+      "role";
+    row-gap: 3px;
+    padding: 12px 0;
+  }
+
+  .experience-organization,
+  .experience-department {
+    text-align: left;
+  }
+
+  .experience-role {
+    margin-top: 3px;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

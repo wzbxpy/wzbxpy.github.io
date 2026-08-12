@@ -36,6 +36,53 @@ p {
   line-height: 1.5;
 }
 
+.date-badge {
+  color: darken($theme-color, 10%);
+  font-weight: 700;
+}
+
+.experience-list {
+  margin: 0 0 24px;
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  grid-template-areas:
+    "date organization"
+    "role department";
+  column-gap: 12px;
+  row-gap: 4px;
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+  &:first-child {
+    padding-top: 2px;
+  }
+}
+
+.experience-date {
+  grid-area: date;
+}
+
+.experience-organization {
+  grid-area: organization;
+  color: $text-color;
+  font-weight: 700;
+  text-align: right;
+}
+
+.experience-role {
+  grid-area: role;
+}
+
+.experience-department {
+  grid-area: department;
+  color: darken($text-grey, 15%);
+  font-weight: 500;
+  text-align: right;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
