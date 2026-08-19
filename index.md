@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Home
+title: Zhibin Wang | Software Institute, Nanjing University | AI Infra & LLM Systems
+description: 王智彬（Zhibin Wang），南京大学软件学院助理教授，研究方向为 AI Infra、大模型系统，以及大语言模型高效训练、推理服务与内核优化。
+lang: en
 ---
 
 **[中文点这里](chinese)**

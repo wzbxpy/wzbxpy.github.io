@@ -1,5 +1,12 @@
+{% capture seo_title %}{% if page.url == '/' %}{{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.author.english_name }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+{% assign seo_title = seo_title | strip %}
+{% assign seo_description = page.description | default: site.description | strip %}
+{% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
+{% assign page_lang = page.lang | default: site.lang | default: 'en' %}
+{% assign robots_directive = page.robots | default: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' %}
+{% assign profile_image = site.logo | absolute_url %}
 <head>
-  <title>{{ site.title }}</title>
+  <title>{{ seo_title | escape }}</title>
 
   <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
@@ -25,7 +32,78 @@
   {% endif%}
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ site.description |default: " A beautiful Jekyll theme for creating resume" }}">
+  <meta name="description" content="{{ seo_description | escape }}">
+  <meta name="author" content="{{ site.author.name | escape }}">
+  <meta name="robots" content="{{ robots_directive }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+
+  {% if page.url == '/' or page.url == '/chinese.html' %}
+  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="zh-CN" href="{{ '/chinese.html' | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+  {% endif %}
+
+  <!-- Open Graph and X/Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.author.name | escape }}">
+  <meta property="og:title" content="{{ seo_title | escape }}">
+  <meta property="og:description" content="{{ seo_description | escape }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  {% if page.url == '/' or page.url == '/chinese.html' %}
+  <meta property="og:image" content="{{ profile_image }}">
+  <meta property="og:image:alt" content="Zhibin Wang (王智彬)">
+  {% endif %}
+  <meta property="og:locale" content="{% if page_lang == 'zh-CN' %}zh_CN{% else %}en_US{% endif %}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ seo_title | escape }}">
+  <meta name="twitter:description" content="{{ seo_description | escape }}">
+  {% if page.url == '/' or page.url == '/chinese.html' %}
+  <meta name="twitter:image" content="{{ profile_image }}">
+  <meta name="twitter:image:alt" content="Zhibin Wang (王智彬)">
+  {% endif %}
+
+  {% if page.url == '/' or page.url == '/chinese.html' %}
+  <!-- Search-engine-readable academic identity. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "url": {{ canonical_url | jsonify }},
+    "name": {{ seo_title | jsonify }},
+    "description": {{ seo_description | jsonify }},
+    "inLanguage": {{ page_lang | jsonify }},
+    "mainEntity": {
+      "@type": "Person",
+      "@id": {{ site.url | append: '/#person' | jsonify }},
+      "name": {{ site.author.english_name | jsonify }},
+      "alternateName": {{ site.author.chinese_name | jsonify }},
+      "url": {{ site.url | append: '/' | jsonify }},
+      "image": {{ profile_image | jsonify }},
+      "jobTitle": {{ site.author.job_title | jsonify }},
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "南京大学",
+        "alternateName": "Nanjing University",
+        "url": "https://www.nju.edu.cn/"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "南京大学",
+        "alternateName": "Nanjing University",
+        "url": "https://www.nju.edu.cn/"
+      },
+      "sameAs": {{ site.author.same_as | jsonify }},
+      "knowsAbout": [
+        "AI Infrastructure",
+        "Large Language Model Systems",
+        "Large Language Model Training",
+        "Large Language Model Serving",
+        "GPU Kernel Optimization"
+      ]
+    }
+  }
+  </script>
+  {% endif %}
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico">

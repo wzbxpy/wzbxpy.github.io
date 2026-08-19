@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Chinese
+title: 王智彬｜南京大学软件学院｜AI Infra 与大模型系统
+description: 王智彬，南京大学软件学院助理教授，研究方向为 AI Infra、大模型系统，以及大语言模型高效训练、推理服务与内核优化。
+lang: zh-CN
 ---
 
 <!-- <img src="../figure/ZhibinWang.jpg" alt="Zhibin Wang" style="width: 200px; float: right; margin-left: 20px; margin-bottom: 20px;">  -->

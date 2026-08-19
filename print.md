@@ -1,6 +1,7 @@
 ---
 layout: print
 title: Home
+robots: noindex, follow
 ---
 
 ## Biography

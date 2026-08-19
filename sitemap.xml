@@ -1,0 +1,14 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for item in site.html_pages %}
+  {% if item.sitemap != false and item.robots != 'noindex, follow' %}
+  <url>
+    <loc>{{ item.url | replace: 'index.html', '' | absolute_url | xml_escape }}</loc>
+  </url>
+  {% endif %}
+{% endfor %}
+</urlset>

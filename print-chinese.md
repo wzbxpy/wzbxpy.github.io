@@ -1,6 +1,8 @@
 ---
 layout: print
 title: Home
+lang: zh-CN
+robots: noindex, follow
 ---
 
 
