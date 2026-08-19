@@ -18,6 +18,9 @@ sidebar:
   # timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   # citizenship: China
   location: 南京大学苏州校区南雍楼
+  google_scholar: https://scholar.google.com/citations?user=J2ta_sIAAAAJ
+  dblp: https://dblp.org/pid/67/1237-2
+  orcid: https://orcid.org/0000-0001-9204-4075
   # website: https://example.com/ # Include the full website URL, including "http://" or "https://".
   # linkedin: alandoe
   # xing: alandoe
