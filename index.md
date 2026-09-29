@@ -21,7 +21,7 @@ As the first author, I have published Nanjing University's first SIGMOD, PPoPP, 
 ## Prospective Students
 __We are looking for self-motivated students who are interested in AI Infra. We welcome students with strong algorithmic, mathematical, and programming skills. Please contact me by email with your CV.__
 
-__Please select the Software Institute (软件学院) when applying. I was previously affiliated with the School of Intelligent Software and Engineering (智能软件与工程学院), so please be careful not to select the wrong school.__
+<!-- __Please select the Software Institute (软件学院) when applying. I was previously affiliated with the School of Intelligent Software and Engineering (智能软件与工程学院), so please be careful not to select the wrong school.__ -->
 
 ## Education & Experience
 

@@ -26,7 +26,7 @@ Related research has been published in top-tier conferences, such as SIGMOD, PPo
 ## Prospective Students
 __我们正在寻找对AI Infra感兴趣的本科生和研究生。我们欢迎具有扎实算法、数学和编程能力的学生。请通过电子邮件与我联系，附上你的简历。__
 
-__请注意：申请或报考时请选择“软件学院”。我此前在“智能软件与工程学院”，请勿误选院系。__
+<!-- __请注意：申请或报考时请选择“软件学院”。我此前在“智能软件与工程学院”，请勿误选院系。__ -->
 
 ## Education & Experience (教育与经历)
 
