@@ -2,6 +2,12 @@
 ## Publications
     
 
+  21. <span class="conference">EuroSys 2027</span> Zibo Wang, Yadong Liu, Zhehao Lin, Peisheng Guo, Zhirui Zhu, Zuxi Chen, Qianyu Jiang, Tiancheng Weng, Xingyi Li, Xinxin Liu, Xiaojie Huang, Yinben Xia, Yuxi Wang, Mingzhuo Chen, Xuan Zhang, Weizhen Dang, Hao Lu, Yuanyuan Gong, Xiang Li, ZeKun He, Yachen Wang, Xianneng Zou, Yiran Zhang, Rong Gu, Qingkai Meng, Peirui Cao, Zhaochen Zhang, Qing Wang, __Zhibin Wang (corresponding author)__, Sheng Zhong, Chen Tian.
+    [NetMoE: Orchestrating Fine-Grained Overlap for Efficient Distributed MoE Inference.](paper/EuroSys27-Zibo-NetMoE.pdf)
+
+  20. <span class="conference">EMNLP 2026</span> Fuliang Liu, Xue Li, Ketai Zhao, Yinxi Gao, Ziyan Zhou, Zhonghui Zhang, Wanchun Dou, Sheng Zhong, __Zhibin Wang__, Chen Tian.
+    [DART: Low-Latency Parallel Drafting with Continuity-Aware Tree Pruning for Speculative Decoding.](paper/ArXiv26-Fuliang-DART.pdf)
+
   19. <span class="conference">HPDC 2026</span> __Zhibin Wang__, Zetao Hong, Xue Li, Zibo Wang, Shipeng Li, Qingkai Meng, Qing Wang, Chengying Huan, Rong Gu, Sheng Zhong, Chen Tian.
     [STAR: Decode-Phase Rescheduling for LLM Inference.](paper/HPDC26-Zhibin-STAR.pdf)
 
@@ -102,9 +108,6 @@
 
   - <span class="conference">ArXiv</span> __Zhibin Wang__, Ziyu Zhong, Nuo Shen, Yuhang Zhou, Rong Gu, Sheng Zhong.
     [SSV: Sparse Speculative Verification for Efficient LLM Inference](paper/ArXiv26-Zhibin-SSV.pdf)
-
-  - <span class="conference">ArXiv</span> Fuliang Liu, Xue Li, Ketai Zhao, Yinxi Gao, Ziyan Zhou, Zhonghui Zhang, __Zhibin Wang (corresponding author)__, Wanchun Dou, Sheng Zhong, Chen Tian.
-    [DART: Diffusion-Inspired Speculative Decoding for Fast LLM Inference](paper/ArXiv26-Fuliang-DART.pdf)
 
   - <span class="conference">ArXiv</span> __Zhibin Wang__, Zhonghui Zhang, Yuhang Zhou, Zibo Wang, Mo Zhou, Peng Jiang, Weilin Cai, Chengying Huan, Rong Gu, Sheng Zhong, Chen Tian.
     [Accelerating Mixture-of-Experts Inference by Hiding Offloading Latency with Speculative Decoding](paper/ArXiv25-Zhibin-SpecMoEOff.pdf)

@@ -11,7 +11,7 @@ title: students
 
 - [Zibo Wang 王梓博](https://wangzb.site/) (`2022.09 - present`, intern at Alibaba LLM Training, co-advised with Prof. Chen Tian)
 
-- Fuliang Liu 刘复良 (`2025.09 - present`, intern at Alibaba Bailian, co-advised with Prof. Wanchun Dou)
+- [Fuliang Liu 刘复良](https://fuliang.space/) (`2025.09 - present`, intern at Alibaba Bailian, co-advised with Prof. Wanchun Dou)
 
 ### Master’s Students
 
