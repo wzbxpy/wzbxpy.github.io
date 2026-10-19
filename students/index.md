@@ -13,6 +13,14 @@ title: students
 
 - [Fuliang Liu 刘复良](https://fuliang.space/) (`2025.09 - present`, intern at Alibaba Bailian, co-advised with Prof. Wanchun Dou)
 
+- Yun Ji 计昀 (`2027`, incoming)
+
+- Zuxi Chen 陈祖希 (`2027`, incoming)
+
+- Xinxin Liu 刘鑫鑫 (`2027`, incoming, co-advised with Prof. Wanchun Dou)
+
+- Feixiang Yao 姚飞翔 (`2027`, incoming, co-advised with Prof. Chen Tian)
+
 ### Master’s Students
 
 - Zhonghui Zhang 张中辉 (`2024.09 - present`, intern at Alibaba Token Foundry)
