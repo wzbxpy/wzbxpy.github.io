@@ -5,13 +5,13 @@
 url: "https://wzbxpy.github.io"
 baseurl: ""
 title: "Zhibin Wang | Software Institute, Nanjing University | AI Infra & LLM Systems"
-description: "王智彬（Zhibin Wang），南京大学软件学院助理教授，研究方向为 AI Infra、大模型系统，以及大语言模型高效训练、推理服务与内核优化。"
+description: "王智彬（Zhibin Wang），南京大学软件学院助理教授、博士生导师，研究方向为 AI Infra、大模型系统，以及大语言模型高效训练、推理服务与内核优化。"
 lang: en
 author:
   name: "王智彬（Zhibin Wang）"
   english_name: "Zhibin Wang"
   chinese_name: "王智彬"
-  job_title: "南京大学软件学院助理教授"
+  job_title: "南京大学软件学院助理教授、博士生导师"
   same_as:
     - "https://scholar.google.com/citations?user=J2ta_sIAAAAJ"
     - "https://dblp.org/pid/67/1237-2"

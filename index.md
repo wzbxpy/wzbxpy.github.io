@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Zhibin Wang | Software Institute, Nanjing University | AI Infra & LLM Systems
-description: 王智彬（Zhibin Wang），南京大学软件学院助理教授，研究方向为 AI Infra、大模型系统，以及大语言模型高效训练、推理服务与内核优化。
+description: 王智彬（Zhibin Wang），南京大学软件学院助理教授、博士生导师，研究方向为 AI Infra、大模型系统，以及大语言模型高效训练、推理服务与内核优化。
 lang: en
 ---
 
 **[中文点这里](chinese)**
 <!-- # Zhibin Wang (王智彬) -->
 ## Biography
-I am an Assistant Professor in the Software Institute, Nanjing University.
+I am an Assistant Professor and Ph.D. Supervisor in the Software Institute, Nanjing University.
 I am also a member of [NASA](https://nasa.nju.edu.cn/) and [COSEC](https://cosec.nju.edu.cn/).
 I received my Ph.D. degree in School of Computer Science, Nanjing University, advised by [Prof. Chen Tian](https://cs.nju.edu.cn/tianchen/index.htm) and [Prof. Sheng Zhong](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm). 
 <!-- I have been interning at [GraphScope](https://graphscope.io/) team in Alibaba DAMO Academy from 2021 to 2024, supervised by [Longbin Lai](https://lai.me/).  -->

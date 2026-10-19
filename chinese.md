@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 王智彬｜南京大学软件学院｜AI Infra 与大模型系统
-description: 王智彬，南京大学软件学院助理教授，研究方向为 AI Infra、大模型系统，以及大语言模型高效训练、推理服务与内核优化。
+description: 王智彬，南京大学软件学院助理教授、博士生导师，研究方向为 AI Infra、大模型系统，以及大语言模型高效训练、推理服务与内核优化。
 lang: zh-CN
 ---
 
@@ -20,7 +20,7 @@ Related research has been published in top-tier conferences, such as SIGMOD, PPo
 
 <!-- 王智彬，南京大学软件学院助理教授。2018年至2024年在南京大学计算机学院攻读博士学位，导师为[田臣](https://cs.nju.edu.cn/tianchen/index.htm)教授和[仲盛](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)教授。当前主要研究AI Infra，尤其关注大语言模型的高效训练、服务与内核优化。作为第一作者发表了南大第一篇SIGMOD、PPoPP和HPDC论文。 -->
 
-王智彬，南京大学软件学院助理教授，也是[NASA实验室](https://nasa.nju.edu.cn/)和[COSEC实验室](https://cosec.nju.edu.cn/)的成员。
+王智彬，南京大学软件学院助理教授、博士生导师，也是[NASA实验室](https://nasa.nju.edu.cn/)和[COSEC实验室](https://cosec.nju.edu.cn/)的成员。
 2018年至2024年在南京大学计算机学院攻读博士学位，导师为[田臣教授](https://cs.nju.edu.cn/tianchen/index.htm)和[仲盛教授](https://cosec.nju.edu.cn/ae/82/c47361a568962/page.htm)。当前主要研究AI Infra，尤其关注大语言模型的高效训练、服务与内核优化。在系统和数据库领域发表CCF A类论文10余篇。作为第一作者发表了南大第一篇SIGMOD、PPoPP和HPDC论文。
 
 ## Prospective Students
