@@ -1,0 +1,189 @@
+/* Student-directory styles, loaded only by the Students page. */
+.student-directory {
+  --student-accent: #3d874c;
+  --student-muted: #64727c;
+}
+
+.student-section {
+  margin-top: 32px;
+}
+
+.student-section h3 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 24px;
+  font-size: 18px;
+  scroll-margin-top: 24px;
+}
+
+.student-count {
+  color: var(--student-muted);
+  font-size: 12px;
+  font-weight: 400;
+  background: #f1f6f2;
+  border-radius: 20px;
+  min-width: 23px;
+  padding: 3px 7px;
+  text-align: center;
+}
+
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px 18px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.student-card {
+  min-width: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.student-identity,
+a.student-identity:hover,
+a.student-identity:focus {
+  display: block;
+  color: var(--student-accent);
+  text-decoration: none;
+}
+
+.student-portrait {
+  display: block;
+  width: 132px;
+  height: 176px;
+  max-width: 100%;
+  margin: 0 auto 12px;
+  overflow: hidden;
+  border-radius: 7px;
+  background: #eff3f4;
+  box-shadow: 0 0 0 1px rgba(25, 71, 83, 0.06);
+}
+
+.student-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  image-orientation: from-image;
+  transform: scale(var(--portrait-scale, 1));
+  transform-origin: var(--portrait-origin, center);
+}
+
+.student-name {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.student-homepage-mark {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+a.student-identity:hover .student-name {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a.student-identity:focus-visible {
+  outline: 2px solid var(--student-accent);
+  outline-offset: 5px;
+  border-radius: 4px;
+}
+
+.student-name-zh {
+  display: block;
+  margin-top: 3px;
+  color: #424d55;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.student-period {
+  margin: 7px 0 0;
+  color: var(--student-muted);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.student-period-incoming {
+  color: #46734e;
+}
+
+.student-note {
+  margin: 7px 0 0;
+  color: #46565f;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.student-coadvisor {
+  margin: 7px 0 0;
+  color: var(--student-muted);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.student-alumni {
+  padding-top: 26px;
+  border-top: 1px solid #e3eaec;
+  margin-top: 38px;
+}
+
+.student-alumni ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.student-alumni li {
+  margin-bottom: 18px;
+  line-height: 1.65;
+  font-size: 13px;
+}
+
+.student-alumni li:last-child {
+  margin-bottom: 0;
+}
+
+.student-alumni li span {
+  color: var(--student-muted);
+  font-size: 12px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .student-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .student-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 479px) {
+  .student-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 29px;
+  }
+
+  .student-portrait {
+    width: 150px;
+    height: 200px;
+  }
+
+  .student-card {
+    max-width: 260px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+}

@@ -1,0 +1,220 @@
+---
+# Keep the opening --- and closing ... markers so Jekyll can read this roster.
+# Student roster. Edit names, photos, periods, links and destinations here.
+groups:
+  - id: phd
+    title: PhD Students
+    members:
+      - name: Yuhang Zhou
+        name_zh: 周宇航
+        photo: /students/photo/周宇航.jpg
+        period: 2021.09 - present
+        incoming: false
+        homepage: https://njuzyh.github.io/
+        internship: Tencent Hunyuan Infra
+        coadvisor: Prof. Chen Tian
+      - name: Zibo Wang
+        name_zh: 王梓博
+        photo: /students/photo/王梓博.jpg
+        period: 2022.09 - present
+        incoming: false
+        homepage: https://wangzb.site/
+        internship: Alibaba Happyhorse Infra
+        coadvisor: Prof. Chen Tian
+      - name: Fuliang Liu
+        name_zh: 刘复良
+        photo: /students/photo/刘复良.jpeg
+        period: 2025.09 - present
+        incoming: false
+        homepage: https://fuliang.space/
+        internship: Alibaba Bailian
+        coadvisor: Prof. Wanchun Dou
+      - name: Zuxi Chen
+        name_zh: 陈祖希
+        photo: /students/photo/陈祖希.jpg
+        period: "2027"
+        incoming: true
+      - name: Yun Ji
+        name_zh: 计昀
+        photo: /students/photo/计昀.JPG
+        period: "2027"
+        incoming: true
+      - name: Xinxin Liu
+        name_zh: 刘鑫鑫
+        photo: /students/photo/刘鑫鑫.JPG
+        period: "2027"
+        incoming: true
+        coadvisor: Prof. Wanchun Dou
+      - name: Feixiang Yao
+        name_zh: 姚飞翔
+        photo: /students/photo/姚飞翔.jpeg
+        period: "2027"
+        incoming: true
+        coadvisor: Prof. Chen Tian
+  - id: masters
+    title: Master’s Students
+    members:
+      - name: Zhonghui Zhang
+        name_zh: 张中辉
+        photo: /students/photo/张中辉.jpg
+        period: 2024.09 - present
+        incoming: false
+        internship: Alibaba Token Foundry
+      - name: Zehao Hong
+        name_zh: 洪泽涛
+        photo: /students/photo/洪泽涛.jpg
+        period: 2025.09 - present
+        incoming: false
+        internship: StepFun LLM Systems
+      - name: Ketai Zhao
+        name_zh: 赵可泰
+        photo: /students/photo/赵可泰.jpg
+        period: 2025.09 - present
+        incoming: false
+      - name: Yibing Zhou
+        name_zh: 周奕冰
+        photo: /students/photo/周奕冰.jpg
+        period: 2025.09 - present
+        incoming: false
+        internship: Tencent CSIG
+        portrait_scale: 1.9
+        portrait_origin: 28% 37%
+      - name: Qianyu Jiang
+        name_zh: 江千钰
+        photo: /students/photo/江千钰.jpg
+        period: 2026.09 - present
+        incoming: false
+      - name: Peng Jiang
+        name_zh: 蒋鹏
+        photo: /students/photo/蒋鹏.jpg
+        period: 2026.09 - present
+        incoming: false
+      - name: Chang Liu
+        name_zh: 刘畅
+        photo: /students/photo/刘畅.png
+        period: 2026.09 - present
+        incoming: false
+        internship: Tencent CSIG
+      - name: Zhen Meng
+        name_zh: 孟臻
+        photo: /students/photo/孟臻.jpg
+        period: 2026.09 - present
+        incoming: false
+      - name: Andi Song
+        name_zh: 宋安迪
+        photo: /students/photo/宋安迪.jpg
+        period: 2026.09 - present
+        incoming: false
+        internship: Tencent CSIG
+      - name: Yikai Wang
+        name_zh: 王奕凯
+        photo: /students/photo/王奕凯.jpg
+        period: 2026.09 - present
+        incoming: false
+      - name: Tianchen Wen
+        name_zh: 翁天成
+        photo: /students/photo/翁天成.png
+        period: 2026.09 - present
+        incoming: false
+      - name: Yifan Xie
+        name_zh: 谢逸凡
+        photo: /students/photo/谢逸凡.jpg
+        period: 2026.09 - present
+        incoming: false
+      - name: Xianrong Zhang
+        name_zh: 张显荣
+        photo: /students/photo/张显荣.jpg
+        period: 2026.09 - present
+        incoming: false
+      - name: Mo Zhou
+        name_zh: 周沫
+        photo: /students/photo/周沫.jpg
+        period: 2026.09 - present
+        incoming: false
+      - name: Zirui Zhu
+        name_zh: 朱祉睿
+        photo: /students/photo/朱祉睿.jpg
+        period: 2026.09 - present
+        incoming: false
+      - name: Yue Deng
+        name_zh: 邓越
+        photo: /students/photo/邓越.jpg
+        period: "2027"
+        incoming: true
+      - name: Liang Gong
+        name_zh: 龚亮
+        photo: /students/photo/龚亮.jpg
+        period: "2027"
+        incoming: true
+      - name: Xuying Han
+        name_zh: 韩旭莹
+        photo: /students/photo/韩旭莹.jpg
+        period: "2027"
+        incoming: true
+      - name: Fengchen Jiang
+        name_zh: 蒋凤晨
+        photo: /students/photo/蒋凤晨.jpg
+        period: "2027"
+        incoming: true
+      - name: Yutong Ke
+        name_zh: 柯羽桐
+        photo: /students/photo/柯羽桐.JPG
+        period: "2027"
+        incoming: true
+      - name: Jiaxin Li
+        name_zh: 李嘉欣
+        photo: /students/photo/李嘉欣.JPG
+        period: "2027"
+        incoming: true
+      - name: Aodong Liu
+        name_zh: 刘敖东
+        photo: /students/photo/刘敖东.jpg
+        period: "2027"
+        incoming: true
+      - name: Lichun Liu
+        name_zh: 刘黎纯
+        photo: /students/photo/刘黎纯.jpg
+        period: "2027"
+        incoming: true
+      - name: Jingming Su
+        name_zh: 苏敬茗
+        photo: /students/photo/苏敬茗.jpg
+        period: "2027"
+        incoming: true
+      - name: Yuhuan Zhao
+        name_zh: 赵雨欢
+        photo: /students/photo/赵雨欢.jpeg
+        period: "2027"
+        incoming: true
+      - name: Ziyu Zhong
+        name_zh: 钟子瑜
+        photo: /students/photo/钟子瑜.jpg
+        period: "2027"
+        incoming: true
+      - name: Zhangqi Zhu
+        name_zh: 朱张旗
+        photo: /students/photo/朱张旗.png
+        period: "2027"
+        incoming: true
+      - name: Tao Zou
+        name_zh: 邹涛
+        photo: /students/photo/邹涛.jpg
+        period: "2027"
+        incoming: true
+alumni:
+  - name: Sipeng Li
+    name_zh: 李世鹏
+    role: Master’s student
+    period: 2023.09 - 2026.06
+    destination: ByteDance
+  - name: Rui Ning
+    name_zh: 宁锐
+    role: Undergraduate student
+    graduated: "2026"
+    destination: PhD at MIT
+  - name: Xi Lin
+    name_zh: 林夕
+    role: Master’s student
+    period: 2022.09 - 2025.06
+    destination: Ant Group
+...

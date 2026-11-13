@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="{{ '/assets/css/students-grid.css' | relative_url }}">
+
+<div class="student-directory">
+  {% for group in include.students.groups %}
+  <section class="student-section" aria-labelledby="{{ group.id }}">
+    <h3 id="{{ group.id }}">{{ group.title }} <span class="student-count">{{ group.members | size }}</span></h3>
+    <ul class="student-grid">
+      {% for student in group.members %}
+      {% assign student_english_name = student.name | default: '' | strip %}
+      {% assign student_full_name = student_english_name | append: ' ' | append: student.name_zh | strip %}
+      <li class="student-card">
+        {% if student.homepage %}<a class="student-identity" href="{{ student.homepage | escape }}" aria-label="{{ student_full_name | escape }} — personal homepage">{% else %}<div class="student-identity">{% endif %}
+          <span class="student-portrait"{% if student.portrait_scale %} style="--portrait-scale: {{ student.portrait_scale }}; --portrait-origin: {{ student.portrait_origin }};"{% endif %}>
+            <img src="{{ student.photo | relative_url | escape }}" alt="{{ student_full_name | escape }}" width="132" height="176" loading="lazy" decoding="async">
+          </span>
+          <span class="student-name"{% if student_english_name == '' %} lang="zh-CN"{% endif %}>{{ student_english_name | default: student.name_zh }}{% if student.homepage %}<span class="student-homepage-mark" aria-hidden="true"> ↗</span>{% endif %}</span>
+          {% if student_english_name != '' %}<span class="student-name-zh" lang="zh-CN">{{ student.name_zh }}</span>{% endif %}
+        {% if student.homepage %}</a>{% else %}</div>{% endif %}
+        <p class="student-period{% if student.incoming %} student-period-incoming{% endif %}">{% if student.incoming %}Incoming · {{ student.period }}{% else %}{{ student.period | replace: ' - ', ' – ' }}{% endif %}</p>
+        {% if student.internship %}<p class="student-note">Intern at {{ student.internship }}</p>{% endif %}
+        {% if student.coadvisor %}<p class="student-coadvisor">Co-advised with<br>{{ student.coadvisor }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+
+  <section class="student-section student-alumni" aria-labelledby="alumni">
+    <h3 id="alumni">Alumni <span class="student-count">{{ include.students.alumni | size }}</span></h3>
+    <ul>
+      {% for alumnus in include.students.alumni %}
+      <li><strong>{{ alumnus.name }} {{ alumnus.name_zh }}</strong><br><span>{{ alumnus.role }}, {% if alumnus.graduated %}graduated in {{ alumnus.graduated }}{% else %}{{ alumnus.period | replace: ' - ', ' – ' }}{% endif %}</span><br>{{ alumnus.destination }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
